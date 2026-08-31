@@ -1,112 +1,5 @@
 ---
-### [ARQUIVO: procuracao_ad_judicia.md]
-
-# Minuta: Procuração Ad Judicia et Extra
-
-## Código: PRO | Documento extrajudicial de representação processual
-
 ---
-
-## Distinção Fundamental
-
-| Tipo | Alcance | Quando usar |
-|------|---------|-------------|
-| **Ad Judicia** | Somente para o foro em geral | Ações judiciais genéricas |
-| **Ad Judicia et Extra** | Foro + atos extrajudiciais | Quando o cliente também precisa autorizar acordos, recebimento de valores |
-| **Específica por processo** | Restrita a processo determinado | Quando o outorgante quer limitar o mandato a uma causa |
-
-> ⚠️ **Poderes especiais (art. 105, CPC):** transigir, desistir, renunciar, firmar acordos, receber e dar quitação, substabelecer — devem ser expressamente mencionados ou expressamente excetuados.
-
-> ⚠️ **LGPD:** CPF do outorgante é de uso restrito ao documento.
-
----
-
-## Checklist pré-redação
-
-- [ ] Nome completo e qualificação do outorgante
-- [ ] CPF do outorgante *(uso restrito)*
-- [ ] Profissão e estado civil do outorgante
-- [ ] Endereço completo do outorgante
-- [ ] Nome(s) e OAB(s) do(s) outorgado(s)
-- [ ] Endereço profissional do(s) outorgado(s)
-- [ ] Ação ou processo específico? → indicar nº e vara
-- [ ] Quais poderes especiais conceder?
-- [ ] Quais poderes expressamente excetuados?
-- [ ] Admite substabelecimento? Com ou sem reserva?
-- [ ] Local e data da assinatura
-
----
-
-## Estrutura Completa
-
-```
-PROCURAÇÃO AD JUDICIA ET EXTRA
-
-OUTORGANTE: [NOME COMPLETO], [nacionalidade], [estado civil], [profissão],
-portador(a) da [CNH nº [NÚMERO] / RG nº [NÚMERO]] e inscrito(a) no CPF
-nº [CPF] *(uso restrito — LGPD)*, residente e domiciliado(a) na
-[LOGRADOURO, nº, BAIRRO, CIDADE, ESTADO, CEP].
-
-OUTORGADO(S): [NOME DO ADVOGADO 1], [nacionalidade], [estado civil],
-advogado(a), inscrito(a) na OAB/[UF] nº [NÚMERO][; e [NOME DO ADVOGADO 2],
-[nacionalidade], [estado civil], advogado(a), inscrito(a) na OAB/[UF]
-nº [NÚMERO]], com escritório profissional na [ENDEREÇO DO ESCRITÓRIO].
-
-PODERES GERAIS: O OUTORGANTE nomeia e constitui o(s) OUTORGADO(S) como
-seu(s) bastante(s) procurador(es), conferindo-lhe(s) amplos poderes gerais
-para o foro em geral, conforme art. 105 do Código de Processo Civil, podendo
-propor contra quem de direito as ações necessárias, defender nas contrárias,
-seguir umas e outras até final decisão, usar de todos os recursos legais
-e acompanhá-los.
-
-PODERES ESPECIAIS: Confere ainda poderes especiais para: transigir, desistir,
-firmar acordos, receber notificações e intimações, receber alvarás e dar
-quitações, firmar compromisso[, substabelecer, no todo ou em parte, com ou
-sem reserva de poderes].
-
-[Se restrito a processo específico:]
-Os poderes ora conferidos referem-se especificamente ao processo nº [NÚMERO]
-que tramita perante a [VARA] da Comarca de [CIDADE/UF].
-
-PODERES EXCETUADOS: O(s) OUTORGADO(S) não tem(têm) poderes para
-[confessar / reconhecer a procedência do pedido / renunciar ao direito
-sobre o qual se funda a ação / receber citação inicial].
-
-[CIDADE/UF], [DATA].
-
-___________________________________________
-[NOME DO OUTORGANTE]
-CPF nº [CPF]
-OUTORGANTE
-```
-
----
-
-## Base Normativa (PRO)
-
-| Artigo | Diploma | Aplicação |
-|--------|---------|-----------|
-| Art. 103 | CPC/2015 | Representação por advogado |
-| Art. 104 | CPC/2015 | Verificação dos poderes |
-| Art. 105 | CPC/2015 | Poderes especiais obrigatoriamente expressos |
-| Art. 683 ss. | CC/2002 | Extinção e revogação do mandato |
-
----
-
-## Checklist de Validação Final (PRO)
-
-- [ ] Qualificação completa do outorgante (profissão e estado civil)?
-- [ ] CPF marcado como uso restrito?
-- [ ] Poderes especiais listados ou expressamente excetuados?
-- [ ] Substabelecimento autorizado ou vedado?
-- [ ] Local e data preenchidos?
-- [ ] Espaço para assinatura do outorgante?
-
----
----
-
-## (Seção integrada) — Conteúdos movidos de `minutas-replica-alvara-cumprimento.md`
-
 ### [ARQUIVO: expedicao_alvara.md]
 
 # Minuta: Petição de Expedição de Alvará Judicial (ALV)
@@ -133,7 +26,7 @@ OUTORGANTE
 
 ---
 
-## Estrutura Obrigatória DA PEÇA
+## Estrutura Obrigatória da Peça
 
 ### 1. CABEÇALHO
 
@@ -244,8 +137,19 @@ OAB/MA nº [NÚMERO]
 - [ ] Procuração com poderes de receber e dar quitação (se alvará em nome do advogado)?
 - [ ] Saldo remanescente identificado (se penhora parcial)?
 
-## (continuação movida)
+## Referências Legais Consolidadas — ALV
 
+| Dispositivo | Conteúdo |
+|-------------|----------|
+| Art. 513, §1º | CPC/2015 — Cumprimento definitivo de sentença |
+| Art. 523 | CPC/2015 — Prazo de 15 dias + multa de 10% |
+| Art. 835, IV | CPC/2015 — Preferência de penhora sobre dinheiro |
+| Art. 854 | CPC/2015 — Penhora via SISBAJUD |
+| Art. 906 | CPC/2015 — Levantamento mediante alvará |
+| Art. 406 | CC/2002 — Juros legais de mora (1% a.m.) |
+
+
+---
 ### [ARQUIVO: cumprimento_sentenca.md]
 
 # Minuta: Cumprimento de Sentença / Penhora Online (CPS)
@@ -285,7 +189,271 @@ SENTENÇA TRANSITADA EM JULGADO
 - [ ] Calcular memória de cálculo com IPCA + juros 1%/mês desde data-base
 - [ ] Incluir multa de 10% do art. 523, §1º?
 - [ ] Executado é PJ? → verificar CNPJ, sede e contas vinculadas
+- [ ] Executado é PF? → verificar contas bancárias e vencimentos (desconto folha)
+- [ ] Há bens imóveis identificados para penhora subsidiária?
+- [ ] Dados bancários do exequente para expedição de alvará ao final?
 
+---
+
+## Estrutura Obrigatória da Peça
+
+### 1. CABEÇALHO
+
+```
+EXCELENTÍSSIMO(A) SENHOR(A) DOUTOR(A) JUIZ(A) DE DIREITO DA [__] VARA [CÍVEL /
+FAZENDA PÚBLICA / FAMÍLIA] DA COMARCA DE [COMARCA] DO ESTADO DO [ESTADO]
+
+PROCESSO N° [NÚMERO DO PROCESSO]
+```
+
+### 2. QUALIFICAÇÃO E TIPO DE PEÇA
+
+```
+[NOME DO EXEQUENTE], já qualificado(a) nos autos do processo em epígrafe, por seu
+advogado que subscreve, vem, respeitosamente, à presença de Vossa Excelência, nos
+termos dos artigos 513 e 523 do Código de Processo Civil, requerer
+
+CUMPRIMENTO DE SENTENÇA
+[COM PEDIDO DE PENHORA ONLINE / COM PEDIDO DE PENHORA COMPLEMENTAR]
+
+pelos motivos de fato e de direito que passa a expor.
+```
+
+---
+
+### 3. RESUMO DO PROCESSO
+
+```
+Consoante se depreende da respeitável [sentença / acórdão], que se converteu em
+coisa julgada em [DATA], a parte Executada foi condenada ao pagamento de [DESCREVER
+A CONDENAÇÃO: danos materiais no importe de R$ [VALOR], além de danos morais de
+R$ [VALOR], com correção monetária e juros de mora nos termos do julgado].
+
+Intimada para efetuar a satisfação voluntária da obrigação judicial no prazo de 15
+(quinze) dias, consoante determina o artigo 523, caput, do CPC, a parte Executada
+quedou-se inerte, sujeitando-se à multa de 10% e a honorários advocatícios de 10%
+(art. 523, §1º, CPC).
+
+[Se houver penhora parcial anterior:]
+Realizada penhora online de valores via SISBAJUD (ID [NÚMERO]), no montante de
+R$ [VALOR] ([valor por extenso]), tal quantia não contempla o pagamento integral
+do quantum indenizatório devidamente atualizado, impondo-se a realização de penhora
+complementar.
+```
+
+---
+
+### 4. DA MEMÓRIA DE CÁLCULO ATUALIZADA
+
+```
+Apresenta-se o demonstrativo de cálculo atualizado do débito, elaborado com base
+nos índices oficiais de correção monetária (IPCA) e juros de mora legais:
+
+| Data-Base | Descrição | Valor Histórico | Valor Atualizado | Juros | Total |
+|-----------|-----------|----------------|-----------------|-------|-------|
+| [DD/MM/AAAA] | [Dano Material] | R$ [X] | R$ [X] | R$ [X] | R$ [X] |
+| [DD/MM/AAAA] | [Dano Moral]   | R$ [X] | R$ [X] | R$ [X] | R$ [X] |
+
+RESUMO:
+Valor Histórico:          R$ [VALOR]
+Correção Monetária:       R$ [VALOR]
+Juros de Mora:            R$ [VALOR]
+Multa (art. 523, §1º):    R$ [VALOR] (10% sobre o total)
+TOTAL ATUALIZADO:         R$ [TOTAL]
+
+[Se penhora anterior:]
+Saldo devedor = R$ [TOTAL] − R$ [PENHORADO] = R$ [SALDO]
+```
+
+---
+
+### 5. DO DIREITO
+
+```
+O artigo 523, caput, do CPC determina que, no cumprimento definitivo da sentença
+que reconhece obrigação de pagar quantia certa, o executado será intimado para
+pagar o débito no prazo de 15 dias, sob pena de multa de 10% e de honorários de
+advogado de 10%, nos termos de seu §1º.
+
+A penhora online, instrumentalizada via SISBAJUD, constitui o meio executivo
+preferencial para satisfação de débitos pecuniários, nos termos do artigo 835, I e
+IV, do CPC/2015, devendo ser realizada até o limite do valor integral do crédito
+atualizado.
+
+Impõe-se, portanto, a realização [da penhora online / da penhora complementar],
+a fim de garantir a satisfação integral do crédito do Exequente, reconhecido por
+sentença transitada em julgado.
+```
+
+---
+
+### 6. DOS PEDIDOS
+
+```
+Ante o exposto, requer a Vossa Excelência:
+
+a) A realização de PENHORA ONLINE via SISBAJUD nas contas bancárias de
+   titularidade da parte Executada, [NOME / RAZÃO SOCIAL], [CPF / CNPJ], em
+   quantia suficiente para quitar o débito atualizado de R$ [TOTAL] ([por extenso])
+   [ou o saldo remanescente de R$ [SALDO] ([por extenso])];
+
+b) Efetuada a penhora, a INTIMAÇÃO da parte Executada para, querendo, oferecer
+   impugnação ao cumprimento de sentença no prazo de 15 (quinze) dias (art. 525, CPC);
+
+c) Caso infrutífera a penhora via SISBAJUD, a ADOÇÃO de medidas executivas
+   subsidiárias: (i) RENAJUD (veículos); (ii) penhora de imóveis; (iii) desconto
+   mensal de 30% dos vencimentos do(a) executado(a) (art. 529, CPC);
+
+d) Ao final, a EXPEDIÇÃO DE ALVARÁ JUDICIAL para levantamento dos valores bloqueados
+   em favor [do Exequente / do advogado subscritor — conforme procuração com poderes
+   de receber e dar quitação], para a conta:
+   Titular: [NOME] | Banco: [BANCO] | Agência: [AG] | Conta: [CONTA] [| PIX: [CHAVE]];
+
+e) A ATUALIZAÇÃO do débito até o efetivo pagamento (IPCA + juros de 1%/mês —
+   art. 406, CC).
+
+Dar-se-á à causa o valor de R$ [TOTAL] ([por extenso]), para os devidos fins.
+Protesta provar o alegado por todos os meios de provas admitidas em direito,
+depoimentos, documentos e quaisquer outros, se necessário.
+
+[Cidade]/MA, [dia] de [mês] de [ano].
+
+Nestes termos, pede deferimento.
+
+[NOME DO ADVOGADO]
+OAB/MA nº [NÚMERO]
+```
+
+---
+
+## Checklist de Validação Final (CPS)
+
+- [ ] Sentença transitada em julgado identificada (data + ID nos autos)?
+- [ ] Prazo de 15 dias da intimação expirado sem pagamento?
+- [ ] Multa de 10% (art. 523, §1º) incluída na memória de cálculo?
+- [ ] SISBAJUD como primeira medida?
+- [ ] RENAJUD e penhora de imóveis como medidas subsidiárias?
+- [ ] Dados bancários completos para o alvará final?
+- [ ] Valor da causa = total da memória de cálculo atualizada?
+
+## Referências Legais Consolidadas — CPS
+
+| Dispositivo | Conteúdo |
+|-------------|----------|
+| Art. 513 | CPC/2015 — Cumprimento de sentença (regras gerais) |
+| Art. 523 | CPC/2015 — Prazo 15 dias + multa 10% + honorários 10% |
+| Art. 525 | CPC/2015 — Impugnação ao cumprimento de sentença |
+| Art. 529 | CPC/2015 — Desconto em folha (alimentos e cumprimento) |
+| Art. 835 | CPC/2015 — Ordem de preferência da penhora |
+| Art. 854 | CPC/2015 — Penhora via SISBAJUD |
+| Art. 906 | CPC/2015 — Levantamento por alvará |
+| Art. 406 | CC/2002 — Juros legais de mora (1% a.m.) |
+
+---
+### [ARQUIVO: procuracao_ad_judicia.md]
+
+# Minuta: Procuração Ad Judicia et Extra
+
+## Código: PRO | Documento extrajudicial de representação processual
+
+---
+
+## Distinção Fundamental
+
+| Tipo | Alcance | Quando usar |
+|------|---------|-------------|
+| **Ad Judicia** | Somente para o foro em geral | Ações judiciais genéricas |
+| **Ad Judicia et Extra** | Foro + atos extrajudiciais | Quando o cliente também precisa autorizar acordos, recebimento de valores |
+| **Específica por processo** | Restrita a processo determinado | Quando o outorgante quer limitar o mandato a uma causa |
+
+> ⚠️ **Poderes especiais (art. 105, CPC):** transigir, desistir, renunciar, firmar acordos, receber e dar quitação, substabelecer — devem ser expressamente mencionados ou expressamente excetuados.
+
+> ⚠️ **LGPD:** CPF do outorgante é de uso restrito ao documento.
+
+---
+
+## Checklist pré-redação
+
+- [ ] Nome completo e qualificação do outorgante
+- [ ] CPF do outorgante *(uso restrito)*
+- [ ] Profissão e estado civil do outorgante
+- [ ] Endereço completo do outorgante
+- [ ] Nome(s) e OAB(s) do(s) outorgado(s)
+- [ ] Endereço profissional do(s) outorgado(s)
+- [ ] Ação ou processo específico? → indicar nº e vara
+- [ ] Quais poderes especiais conceder?
+- [ ] Quais poderes expressamente excetuados?
+- [ ] Admite substabelecimento? Com ou sem reserva?
+- [ ] Local e data da assinatura
+
+---
+
+## Estrutura Completa
+
+```
+PROCURAÇÃO AD JUDICIA ET EXTRA
+
+OUTORGANTE: [NOME COMPLETO], [nacionalidade], [estado civil], [profissão],
+portador(a) da [CNH nº [NÚMERO] / RG nº [NÚMERO]] e inscrito(a) no CPF
+nº [CPF] *(uso restrito — LGPD)*, residente e domiciliado(a) na
+[LOGRADOURO, nº, BAIRRO, CIDADE, ESTADO, CEP].
+
+OUTORGADO(S): [NOME DO ADVOGADO 1], [nacionalidade], [estado civil],
+advogado(a), inscrito(a) na OAB/[UF] nº [NÚMERO][; e [NOME DO ADVOGADO 2],
+[nacionalidade], [estado civil], advogado(a), inscrito(a) na OAB/[UF]
+nº [NÚMERO]], com escritório profissional na [ENDEREÇO DO ESCRITÓRIO].
+
+PODERES GERAIS: O OUTORGANTE nomeia e constitui o(s) OUTORGADO(S) como
+seu(s) bastante(s) procurador(es), conferindo-lhe(s) amplos poderes gerais
+para o foro em geral, conforme art. 105 do Código de Processo Civil, podendo
+propor contra quem de direito as ações necessárias, defender nas contrárias,
+seguir umas e outras até final decisão, usar de todos os recursos legais
+e acompanhá-los.
+
+PODERES ESPECIAIS: Confere ainda poderes especiais para: transigir, desistir,
+firmar acordos, receber notificações e intimações, receber alvarás e dar
+quitações, firmar compromisso[, substabelecer, no todo ou em parte, com ou
+sem reserva de poderes].
+
+[Se restrito a processo específico:]
+Os poderes ora conferidos referem-se especificamente ao processo nº [NÚMERO]
+que tramita perante a [VARA] da Comarca de [CIDADE/UF].
+
+PODERES EXCETUADOS: O(s) OUTORGADO(S) não tem(têm) poderes para
+[confessar / reconhecer a procedência do pedido / renunciar ao direito
+sobre o qual se funda a ação / receber citação inicial].
+
+[CIDADE/UF], [DATA].
+
+___________________________________________
+[NOME DO OUTORGANTE]
+CPF nº [CPF]
+OUTORGANTE
+```
+
+---
+
+## Base Normativa (PRO)
+
+| Artigo | Diploma | Aplicação |
+|--------|---------|-----------|
+| Art. 103 | CPC/2015 | Representação por advogado |
+| Art. 104 | CPC/2015 | Verificação dos poderes |
+| Art. 105 | CPC/2015 | Poderes especiais obrigatoriamente expressos |
+| Art. 683 ss. | CC/2002 | Extinção e revogação do mandato |
+
+---
+
+## Checklist de Validação Final (PRO)
+
+- [ ] Qualificação completa do outorgante (profissão e estado civil)?
+- [ ] CPF marcado como uso restrito?
+- [ ] Poderes especiais listados ou expressamente excetuados?
+- [ ] Substabelecimento autorizado ou vedado?
+- [ ] Local e data preenchidos?
+- [ ] Espaço para assinatura do outorgante?
+
+---
 ---
 ### [ARQUIVO: substabelecimento.md]
 
@@ -495,7 +663,7 @@ OAB/[UF] nº [NÚMERO]            OAB/[UF] nº [NÚMERO]
 - [ ] Nome completo do declarante
 - [ ] CPF *(uso restrito)*
 - [ ] Qualificação (profissão, estado civil)
-- [ ] RFnda mFnsal individual ou familiar a declarar?
+- [ ] Renda mensal individual ou familiar a declarar?
 - [ ] Declaração assinada pelo próprio cliente (não pelo advogado)
 - [ ] Local e data
 
@@ -513,7 +681,7 @@ parágrafo único, do Código de Processo Civil —, que minha condição econô
 se revela hipossuficiente para arcar com o pagamento de custas e despesas
 processuais sem prejuízo do meu sustento e de minha família.
 
-Fm razão dF possuir rFnda familiar per capita de até [UM / DOIS / TRÊS]
+Em razão de possuir renda familiar per capita de até [UM / DOIS / TRÊS]
 salário(s) mínimo(s), requer a concessão dos benefícios da GRATUIDADE DE
 JUSTIÇA, com fulcro no art. 98 e seguintes do Código de Processo Civil.
 
@@ -756,4 +924,3 @@ AO JUÍZO DA [X]ª VARA DA FAZENDA PÚBLICA DA COMARCA DE [CIDADE] — [ESTADO]
 - [ ] Advogados com poderes para transigir (verificar procuração)?
 - [ ] Cláusula de vencimento antecipado (se parcelado)?
 - [ ] Todas as partes e advogados assinaram?
-

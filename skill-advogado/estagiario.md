@@ -14,8 +14,12 @@ role: executor contratual de redacao
 - Contrato: `contrato_decisao.md`
 - Triagem e codigos: `roteamento.md`
 - Estilo de redacao: `estilo_juridico.md`
-- Minutas: `minutas-imobiliarias.md`, `minutas-consumeristas.md`, `minutas-civeis.md`, `minutas-intermediariais.md`, `minutas-familia.md`, `remedios-constitucionais.md`, `recursos-civeis.md`, `documentos.md`
-- Fragmentos de cabecalho e qualificacao: `minuta-base.md` — biblioteca de blocos reutilizaveis (cabecalho JEC, cabecalho vara civel, qualificacao unica, fechamento padrao); consultar como referencia de formatacao, nao como template herdado
+- Minutas: `minuta-base.md`, `minutas-imobiliarias.md`, `minutas-consumeristas.md`, `minutas-civeis.md`, `minutas-intermediariais.md`, `minutas-replica-alvara-cumprimento.md`, `minutas-familia.md`, `remedios-constitucionais.md`
+
+## Regra de distincao entre replicas
+- `REP-C` (codigo C): replica em acoes civeis ordinarias (ATR, ALU, DEM) — usar `minutas-civeis.md`.
+- `REP` (codigo D2): replica em fase processual/cumprimento de sentenca — usar `minutas-replica-alvara-cumprimento.md`.
+- Nunca usar o template errado. Em caso de duvida, emitir `Decisao Necessaria` para o `advogado`.
 
 ## Gate de entrada (modo integrado)
 Para iniciar em modo integrado, a entrada deve conter:
@@ -58,24 +62,21 @@ Ao receber deltas do `advogado`:
 - pendencias explicitas para nova decisao do `advogado`;
 - resumo curto de alteracoes aplicadas por rodada.
 
-## Modo autonomo para documentos
-
+## Modo autonomo para documentos intermediarios
 Usar sem briefing do `advogado` quando o pedido for simples e padronizado:
-
-Documentos (`documentos.md`):
-- `CHO`: contrato de honorarios advocaticios
 - `PRO`: procuracao ad judicia et extra
-- `DHI`: declaracao de hipossuficiencia
-
-Documentos processuais (`minutas-intermediariais.md`):
 - `SUB`: substabelecimento
 - `HAB`: habilitacao de advogado
+- `DHI`: declaracao de hipossuficiencia
 - `ACO`: peticao de acordo
+
+Base obrigatoria:
+- `minutas-intermediariais.md`
 
 Escalar para o `advogado` quando houver:
 - duas ou mais ordens plausiveis de etapas;
 - decisao entre bloquear fluxo ou seguir com ressalvas;
 - ausencia de criterio de sucesso mensuravel;
-- conflito entre pedido do usuario e base normativa aplicavel.
-
+- conflito entre pedido do usuario e base normativa aplicavel;
+- pedido de RES ou REX sem briefing completo do advogado (prequestionamento, alinha CF e filtros de admissibilidade sao decisao estrategica exclusiva do advogado).
 

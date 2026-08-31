@@ -87,4 +87,3 @@ Interface publica de baixo acoplamento entre estrategia (`advogado`) e execucao 
 
 ### 6) Criterios de Aceite
 - Verificacoes objetivas:
-

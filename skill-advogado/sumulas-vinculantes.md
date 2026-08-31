@@ -113,4 +113,3 @@ SÚMULA VINCULANTE 56 A falta de estabelecimento penal adequado não autoriza a 
 SÚMULA VINCULANTE 57 A imunidade tributária constante do art. 150, VI, d, da CF/88 aplica-se à importação e comercialização, no mercado interno, do livro eletrônico (e- book) e dos suportes exclusivamente utilizados para fixá-los, como leitores de livros eletrônicos (e-readers), ainda que possuam funcionalidades acessórias.
 
 SÚMULA VINCULANTE 58 Inexiste direito a crédito presumido de IPI relativamente à entrada de insumos isentos, sujeitos à alíquota zero ou não tributáveis, o que não contraria o princípio da não cumulatividade.
-

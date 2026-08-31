@@ -1,272 +1,5 @@
 
 
-
-
----
-### [ARQUIVO: obrigacao_fazer_art18.md]
-
-# Minuta: Ação de Obrigação de Fazer — Substituição de Produto (OBF)
-
-## Código: OBF | JEC (≤ 40 SM) ou Vara Cível | CDC arts. 18, §1º, I; 84; 311 + CPC art. 300
-
----
-
-## Distinção Fundamental
-
-| Situação | Ação adequada |
-|----------|--------------|
-| Vício não sanado no prazo de 30 dias — consumidor quer a **troca** do produto | **OBF** — Obrigação de fazer (substituição) + tutela de urgência |
-| Vício não sanado no prazo de 30 dias — consumidor quer o **dinheiro de volta** | **RPR** — Cancelamento + depósito judicial |
-| Fornecedor se recusa a efetuar distrato de serviço contínuo | **DIS** — Distrato |
-| Bloqueio/cancelamento indevido de serviço de telefonia | **TEL** |
-
-> ⚠️ Produto essencial (geladeira, fogão, freezer, computador de trabalho): o prazo de 30 dias pode ser suprimido (art. 18, §3º, CDC). A tutela de urgência é ainda mais justificada.
-
-> ⚠️ Tutela de urgência é **sempre** presente nesta minuta.
-
----
-
-## Checklist pré-redação
-
-- [ ] Qual o produto com vício? (descrição completa: marca, modelo, cor, nº série/NF)
-- [ ] Data da compra e valor pago?
-- [ ] Data em que o produto apresentou o vício?
-- [ ] Data em que foi entregue à assistência técnica para reparo?
-- [ ] Os 30 dias do art. 18, caput, já expiraram? (ou produto essencial → prazo dispensável)
-- [ ] Houve mais de uma tentativa de reparo? (agrava o dano moral)
-- [ ] O consumidor possui NF e protocolo de entrega na assistência?
-- [ ] Há danos materiais colaterais (alimentos estragados, despesas extras)?
-- [ ] Valor da causa: produto + dano moral ≤ 40 SM? → JEC
-- [ ] Parte autora é idosa? → tramitação prioritária
-- [ ] Gratuidade de justiça?
-
----
-
-## Estrutura Obrigatória da Peça
-
-### 1. CABEÇALHO
-
-```
-[JEC:]
-EXCELENTÍSSIMO(A) SENHOR(A) DOUTOR(A) JUIZ(A) DE DIREITO DO
-JUIZADO ESPECIAL CÍVEL DA COMARCA DE [COMARCA] — ESTADO DO [ESTADO]
-
-[Vara Cível:]
-EXCELENTÍSSIMO(A) SENHOR(A) DOUTOR(A) JUIZ(A) DE DIREITO DA [__] VARA CÍVEL
-DA COMARCA DE [COMARCA] — ESTADO DO [ESTADO]
-
-[TRAMITAÇÃO PRIORITÁRIA – LEI FEDERAL Nº 10.741/2003]  ← incluir apenas se idoso
-```
-
-### 2. QUALIFICAÇÃO E TIPO DE AÇÃO
-
-```
-[NOME COMPLETO DO AUTOR], [nacionalidade], [estado civil], [profissão], inscrito(a)
-no CPF sob nº [CPF], residente e domiciliado(a) à [ENDEREÇO COMPLETO], CEP [CEP],
-vem, respeitosamente, à presença de Vossa Excelência, com fulcro nos artigos 84 e
-18, §1º, inciso I, da Lei nº 8.078/1990 c/c artigos 300 e 311 do Código de Processo
-Civil, ajuizar a presente
-
-AÇÃO DE OBRIGAÇÃO DE FAZER — SUBSTITUIÇÃO DE PRODUTO C/C TUTELA DE
-URGÊNCIA E INDENIZAÇÃO POR DANOS MORAIS
-
-em face de [NOME/RAZÃO SOCIAL DO RÉU], pessoa jurídica de direito privado,
-inscrita no CNPJ sob o nº [CNPJ], com sede à [ENDEREÇO], [e em face de [NOME DO
-2º RÉU], inscrita no CNPJ sob nº [CNPJ], com endereço em [ENDEREÇO],]
-pelos fatos e fundamentos jurídicos a seguir expostos.
-```
-
----
-
-### 3. DOS FATOS
-
-```
-Em [DATA DA COMPRA], o(a) Requerente adquiriu no estabelecimento [da Requerida /
-do 2º Réu] o produto [DESCRIÇÃO: marca, modelo, cor, capacidade, tensão], pelo valor
-de R$ [VALOR] ([por extenso]), conforme nota fiscal nº [NÚMERO], emitida em [DATA],
-ora acostada (DOC [XX]).
-
-Ocorre que, decorridos apenas [PERÍODO] de uso regular, o produto passou a apresentar
-o seguinte defeito: [DESCRIÇÃO OBJETIVA DO VÍCIO], tornando-o completamente impróprio
-para o uso a que se destina.
-
-Constatado o vício, o(a) Requerente acionou a Requerida em [DATA], solicitando a
-imediata troca do produto. A Requerida, contudo, recusou a substituição de plano,
-informando que encaminharia técnico para análise.
-
-Em [DATA], o produto foi encaminhado à assistência técnica [NOME], conforme ordem de
-serviço nº [NÚMERO] (DOC [XX]). Na [1ª / única] visita, o técnico constatou
-[DIAGNÓSTICO]. [Se mais visitas: Em [DATA], realizou-se a [2ª / 3ª] visita, ocasião
-em que [INTERVENÇÃO], conforme OS nº [NÚMERO] (DOC [XX]).]
-
-Mesmo após [NÚMERO] intervenções técnicas, o produto permanece apresentando o mesmo
-defeito, sendo inservível para o fim a que se destina.
-
-A privação do produto tem causado ao(à) Requerente [DESCREVER O IMPACTO: necessidade
-de adquirir gelo diariamente / impossibilidade de preparar refeições / prejuízo no
-trabalho], além dos transtornos emocionais decorrentes do descaso reiterado.
-
-Sem obter solução extrajudicial, o(a) Requerente não teve alternativa senão buscar a
-tutela jurisdicional.
-```
-
----
-
-### 4. DO DIREITO
-
-#### Da Relação de Consumo e da Responsabilidade Solidária
-
-```
-A relação jurídica entre as partes é de natureza consumerista, aplicando-se o CDC em
-sua integralidade. O(A) Requerente é consumidor nos termos do artigo 2º do CDC; a(s)
-Requerida(s) é(são) fornecedora(s) nos termos do artigo 3º. Fabricante e comerciante
-respondem solidariamente pelos vícios de qualidade (art. 18, caput, CDC).
-```
-
-#### Da Tutela de Urgência
-
-```
-Requer-se, liminarmente, nos termos do artigo 300 do CPC c/c artigo 84, §3º, do CDC,
-a concessão de TUTELA DE URGÊNCIA para que [a 1ª Requerida / os Requeridos] efetuem
-a SUBSTITUIÇÃO IMEDIATA do produto [DESCRIÇÃO] por outro novo, de mesma marca e
-modelo, em perfeitas condições de uso, no prazo de 48 (quarenta e oito) horas, sob
-pena de multa diária (astreinte) de R$ [VALOR] ([por extenso]) por dia de
-descumprimento.
-
-A probabilidade do direito decorre da prova documental pré-constituída: nota fiscal
-(comprovante de aquisição) e ordens de serviço ([NÚMERO] intervenções técnicas sem
-êxito), configurando o art. 18, §1º, I, CDC.
-
-O perigo de dano é concreto e se agrava a cada dia: o(a) Requerente permanece
-privado(a) de [bem essencial], suportando [DANO CONTÍNUO], dano de difícil reparação
-que não pode aguardar o desfecho ordinário da demanda. A medida é reversível.
-
-[Se produto essencial:] O produto — [GELADEIRA / FOGÃO / FREEZER] — enquadra-se
-no artigo 18, §3º, do CDC como bem essencial, dispensando o transcurso do prazo de
-trinta dias para exercício do direito à substituição.
-```
-
-#### Do Direito à Substituição do Produto
-
-```
-O artigo 18, caput, do CDC impõe aos fornecedores a obrigação de sanar vícios de
-qualidade em até 30 dias. Expirado o prazo — ou presentes as hipóteses do §3º —,
-nasce o direito potestativo do consumidor de exigir uma das alternativas do §1º.
-
-O(A) Requerente opta expressamente pela substituição do produto (art. 18, §1º, I,
-CDC), direito que independe da concordância da Requerida, sem prejuízo da indenização
-pelos danos morais decorrentes do descaso e da privação prolongada do bem.
-```
-
-#### Dos Danos Morais
-
-```
-O descaso reiterado da Requerida — após [NÚMERO] intervenções e [PERÍODO] de espera
-— extrapola o mero inadimplemento e configura dano moral in re ipsa. A privação de
-[bem essencial] e a impotência do(a) consumidor(a) diante da resistência injustificada
-atingem a dignidade e a tranquilidade do(a) Requerente (arts. 5º, X, CF; 186 e 927, CC).
-
-[Se circunstância agravante:] O dano é intensificado pela situação de [gravidez /
-doença / idade avançada] do(a) Requerente à época dos fatos.
-
-O valor de R$ [VALOR] mostra-se justo e proporcional, atendendo à função
-compensatória e pedagógico-sancionatória da condenação.
-```
-
-#### Da Inversão do Ônus da Prova
-
-```
-Requer-se a inversão do ônus da prova (art. 6º, VIII, CDC), por ser o(a) Requerente
-hipossuficiente técnico(a) em relação à Requerida, detentora exclusiva dos registros
-técnicos e laudos internos pertinentes ao produto.
-```
-
----
-
-### 5. DOS PEDIDOS
-
-```
-Ante o exposto, requer a Vossa Excelência:
-
-a) A designação de audiência de conciliação (art. 319, VII, CPC/2015);
-
-b) A citação [dos Réus / da Requerida] para comparecer e responder, sob pena de revelia;
-
-c) LIMINARMENTE, a concessão de TUTELA DE URGÊNCIA (art. 300, CPC c/c art. 84,
-   §3º, CDC), para determinar a substituição do produto [DESCRIÇÃO] por outro novo,
-   de mesma marca e modelo, em 48 horas, sob pena de multa diária de R$ [VALOR]
-   por dia de descumprimento;
-
-d) O deferimento da inversão do ônus da prova (art. 6º, VIII, CDC);
-
-e) Ao final, a procedência total, para:
-   (i)  condenar [a Requerida / os Requeridos, solidariamente,] à SUBSTITUIÇÃO do
-        produto (NF nº [NÚMERO]) por outro novo, de mesma marca e modelo, confirmando
-        a tutela de urgência;
-   (ii) caso impossível a substituição por produto idêntico: restituição de
-        R$ [VALOR], atualizado pelo INPC desde a compra + juros de 1% ao mês
-        desde a citação;
-   [Se garantia estendida:]
-   (iii) condenar o [2º Réu] a transferir a garantia estendida para o produto
-         substituto, sob pena de perdas e danos de R$ [VALOR];
-   (iv) condenar ao pagamento de danos morais de R$ [VALOR];
-
-f) A condenação ao pagamento de custas e honorários (art. 85, §2º, CPC);
-
-g) [Se gratuidade:] A concessão da gratuidade de justiça (art. 98, CPC).
-
-Dá-se à causa o valor de R$ [PRODUTO + DANOS MORAIS] ([por extenso]).
-
-[COMARCA]/[ESTADO], [DATA].
-
-Nestes termos, pede deferimento.
-
-[NOME DO ADVOGADO]
-OAB/[UF] nº [NÚMERO]
-```
-
----
-
-## Documentos que devem acompanhar a inicial
-
-- [ ] Nota fiscal / cupom fiscal do produto
-- [ ] Ordens de serviço das visitas técnicas (todas)
-- [ ] Protocolo de reclamação no SAC / PROCON (se houver)
-- [ ] Fotos do produto defeituoso (se disponíveis)
-- [ ] Contrato de garantia estendida (se contratada)
-- [ ] Documentos que demonstrem o impacto do defeito
-- [ ] Declaração de hipossuficiência (se gratuidade)
-- [ ] Procuração
-
-## Checklist de Validação Final (OBF)
-
-- [ ] Tutela de urgência presente e fundamentada (probabilidade + perigo + reversibilidade)?
-- [ ] Prazo de 48 horas e multa diária fixados no pedido liminar?
-- [ ] Produto essencial identificado → art. 18, §3º, CDC invocado?
-- [ ] Opção pela substituição (inciso I) declarada expressamente?
-- [ ] Alternativa subsidiária de restituição incluída?
-- [ ] Solidariedade fabricante + comerciante fundamentada (art. 18, caput)?
-- [ ] Garantia estendida incluída se contratada?
-- [ ] Dano moral com circunstâncias agravantes se houver?
-- [ ] Inversão do ônus da prova requerida?
-- [ ] Valor da causa = produto + danos morais, algarismos e por extenso?
-
-## Base Normativa (OBF)
-
-| Artigo | Diploma | Aplicação |
-|--------|---------|-----------|
-| Art. 18, caput | CDC | Responsabilidade solidária — vício de qualidade |
-| Art. 18, §1º, I | CDC | Direito à substituição do produto |
-| Art. 18, §3º | CDC | Produto essencial — dispensa do prazo de 30 dias |
-| Art. 6º, VI e VIII | CDC | Reparação de danos + inversão do ônus da prova |
-| Art. 84, §3º | CDC | Tutela específica — liminar |
-| Art. 2º e 3º | CDC | Consumidor e fornecedor |
-| Art. 7º, §único | CDC | Responsabilidade solidária da cadeia |
-| Art. 25, §1º | CDC | Solidariedade na reparação |
-| Art. 300 | CPC/2015 | Tutela de urgência |
-| Art. 311, II e IV | CPC/2015 | Tutela de evidência (alternativa) |
-| Arts. 186 e 927 | CC/2002 | Responsabilidade civil — danos morais |
-
 ---
 ### [ARQUIVO: agravo_interno.md]
 
@@ -480,7 +213,7 @@ REPARO] e expirado em [DATA = ENTREGA + 30 DIAS], circunstância que faz nascer
 o direito potestativo do consumidor à rescisão contratual com restituição integral.
 
 PERIGO DE DANO: a retenção do valor pelo fornecedor — enquanto o consumidor
-permanece privado do produto funcional C do dinheiro pago — representa dano
+permanece privado do produto funcional e do dinheiro pago — representa dano
 patrimonial de erosão contínua, agravado pelo fator inflacionário. O depósito
 judicial garante a efetividade da futura condenação e neutraliza o risco de
 insolvência do devedor.
@@ -576,7 +309,7 @@ fabricante/vendedor de sua responsabilidade perante o consumidor final.
 
 ```
 A privação do produto adquirido por [PERÍODO] — primeiro pelo vício que o inutilizou
-C depois pelo reparo que ultrapassou o prazo legal — aliada à retenção do valor
+e depois pelo reparo que ultrapassou o prazo legal — aliada à retenção do valor
 pago pelo fornecedor, causou à parte requerente frustração, transtorno e prejuízo
 à sua rotina [DESCREVER O IMPACTO CONCRETO: dependia do produto para trabalho /
 tratamento de saúde / uso cotidiano essencial / outro].
@@ -1625,7 +1358,7 @@ em face de [NOME RÉU], [QUALIFICAÇÃO RÉU], pelos fatos e fundamentos jurídi
 §1º — CONTEXTO DA COMPRA/CONTRATAÇÃO
 Em [DATA DA COMPRA], o(a) Requerente realizou a [compra/contratação] de
 [QUANTIDADE E DESCRIÇÃO DOS PRODUTOS/SERVIÇOS] junto à Requerida [NOME DO
-FORNFCFDOR], dFstinados ao uso [pFssoal/familiar], pelo valor total de
+FORNECEDOR], destinados ao uso [pessoal/familiar], pelo valor total de
 R$ [VALOR], [parcelado em X×R$ Y / pago à vista], conforme comprovante de
 compra em anexo. À época da contratação, a Requerida comprometeu-se a
 [entregar os produtos até [DATA] / prestar o serviço até [DATA]], prazo que
@@ -1666,7 +1399,7 @@ e a Requerida como fornecedora (art. 3º CDC), por desenvolver atividade de
 ```
 A responsabilidade da Requerida é objetiva, prescindindo de demonstração de
 culpa, nos termos do art. 14, caput, do CDC. Demonstrado o defeito do serviço
-C o nexo causal com os danos suportados, impõe-se a condenação à reparação
+e o nexo causal com os danos suportados, impõe-se a condenação à reparação
 integral.
 ```
 
@@ -2357,4 +2090,3 @@ OAB/[ESTADO] nº [NÚMERO]
 - [ ] Dano moral fundamentado com impacto concreto descrito?
 - [ ] Confirmação da tutela nos pedidos de mérito incluída?
 - [ ] Valor da causa em algarismos e por extenso?
-

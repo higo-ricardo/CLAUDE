@@ -1,4 +1,241 @@
+### [ARQUIVO: demarcacao_terras.md]
 
+# Minuta: Ação de Demarcação de Terras (DEM)
+
+## Código: DEM | Arts. 569–587, CPC/2015 + Arts. 1.297–1.298, CC/2002 | Vara Cível — Procedimento Especial
+
+---
+
+## Distinção Fundamental
+
+| Ação | Objeto | Quando usar |
+|------|--------|-------------|
+| **Demarcação (DEM)** | Fixar ou reconstituir limites entre imóveis confinantes | Limites incertos, apagados ou contestados entre vizinhos |
+| **Divisão (DIV)** | Dividir imóvel em estado de comunhão | Coproprietários querem extinguir o condomínio |
+| **Reivindicatória (REI)** | Recuperar posse do imóvel com base no domínio | Proprietário perdeu a posse para terceiro |
+| **Reintegração (RPO)** | Recuperar posse perdida por esbulho | Possuidor esbulhado busca restituição |
+
+> ⚠️ **Competência:** foro da situação do imóvel (art. 47, CPC).
+> ⚠️ **Prazo:** a ação de demarcação é imprescritível — o proprietário pode exigi-la a qualquer tempo (art. 1.297, CC).
+> ⚠️ **Perícia obrigatória:** a demarcação depende de vistoria e levantamento topográfico (art. 574, CPC).
+> ⚠️ **Duas fases:** (1ª) julgamento da demarcação; (2ª) execução — trabalho pericial e fixação dos marcos.
+
+---
+
+## Checklist Pré-Redação
+
+- [ ] Localização e matrícula do imóvel do autor (CRI atualizado)?
+- [ ] Matrícula do imóvel confinante do réu?
+- [ ] Qual o fundamento do litígio: limites apagados, marcos removidos, invasão de faixa, documento divergente?
+- [ ] Há planta ou memorial descritivo divergente entre as partes?
+- [ ] Existe georreferenciamento (INCRA) do imóvel rural? (obrigatório para imóveis rurais)
+- [ ] Há ata notarial, boletim de ocorrência ou comunicação extrajudicial registrando a controvérsia?
+- [ ] O autor pretende apenas demarcar ou também cumular pedido de indenização por área esbulhada?
+- [ ] Há benfeitorias na área de sobreposição?
+- [ ] Parte autora é idosa? → tramitação prioritária
+- [ ] Gratuidade de justiça?
+
+---
+
+## Estrutura Obrigatória da Peça
+
+### 1. CABEÇALHO
+
+```
+EXCELENTÍSSIMO(A) SENHOR(A) DOUTOR(A) JUIZ(A) DE DIREITO DA [__] VARA CÍVEL
+DA COMARCA DE [COMARCA] — ESTADO DO [ESTADO]
+```
+
+### 2. QUALIFICAÇÃO E TIPO DE AÇÃO
+
+```
+[NOME COMPLETO DO AUTOR], [qualificação completa], proprietário(a) do imóvel
+descrito a seguir, por seu advogado constituído, vem, com fundamento nos
+arts. 569 e seguintes do Código de Processo Civil c/c arts. 1.297 e 1.298
+do Código Civil, propor a presente
+
+AÇÃO DE DEMARCAÇÃO DE TERRAS [C/C INDENIZAÇÃO POR ÁREA ESBULHADA]
+
+em face de [NOME DO RÉU], [qualificação completa], proprietário(a) do imóvel
+confinante descrito abaixo, pelos motivos de fato e direito a seguir expostos.
+```
+
+---
+
+### 3. DOS FATOS
+
+```
+I — DOS IMÓVEIS E DA CONFINÂNCIA
+
+O(A) Autor(a) é o(a) legítimo(a) proprietário(a) do imóvel [rural/urbano]
+situado em [LOCALIZAÇÃO COMPLETA], com área de [ÁREA] [hectares/m²],
+inscrito sob a matrícula nº [NÚMERO] no Cartório de Registro de Imóveis de
+[COMARCA], conforme certidão de inteiro teor em anexo (DOC [XX]).
+
+O imóvel do(a) Autor(a) confronta, no [LADO: norte/sul/leste/oeste],
+com o imóvel do(a) Réu(é), [qualificação], inscrito sob a matrícula nº
+[NÚMERO] no mesmo CRI, conforme certidão em anexo (DOC [XX]).
+
+II — DA CONTROVÉRSIA SOBRE OS LIMITES
+
+Os limites entre os imóveis tornaram-se [incertos / apagados / contestados]
+em razão de [CAUSA: remoção de marcos divisórios / ausência de demarcação
+original / divergência entre plantas cadastrais / deterioração natural dos
+marcos / disputa sobre faixa de [ÁREA]].
+
+[Descrever com precisão os fatos: data em que surgiu a controvérsia, atos
+praticados pelo réu, tentativas de acordo, evidências da divergência.]
+
+Em [DATA], o(a) Autor(a) [notificou o(a) Réu(é) extrajudicialmente /
+constratou levantamento topográfico que revelou a divergência / identificou
+a remoção dos marcos], sem que fosse possível compor amigavelmente a questão.
+
+[Se houver invasão de área:]
+O(A) Réu(é) ocupa indevidamente uma faixa de [ÁREA] [m²/hectares] pertencente
+ao imóvel do(a) Autor(a), causando-lhe prejuízo material consistente em
+[perda de área produtiva / impossibilidade de construir / outros danos].
+
+III — DA NECESSIDADE DE DEMARCAÇÃO JUDICIAL
+
+Diante da impossibilidade de fixação amigável dos limites e da controvérsia
+sobre os marcos divisórios, a intervenção judicial é imprescindível para
+restabelecer os limites originários dos imóveis e assegurar ao(à) Autor(a)
+o pleno exercício do seu direito de propriedade.
+```
+
+---
+
+### 4. DO DIREITO
+
+#### 4.1 Do Direito à Demarcação
+
+```
+O art. 1.297 do Código Civil assegura ao proprietário o direito de cercar,
+murar, valar ou tapar de qualquer modo o seu prédio, rural ou urbano, e
+pode constranger o seu confinante a proceder com ele à demarcação entre os
+dois prédios, a aviventar rumos apagados e a renovar marcos destruídos ou
+arruinados, repartindo-se proporcionalmente entre os interessados as
+respectivas despesas.
+
+A ação demarcatória, de rito especial (arts. 569–587, CPC), é o instrumento
+adequado para a fixação judicial dos limites entre imóveis, sendo imprescritível
+nos termos da jurisprudência consolidada do Superior Tribunal de Justiça.
+```
+
+#### 4.2 Do Procedimento e da Perícia
+
+```
+Nos termos do art. 574 do CPC, o juiz nomeará perito para proceder à vistoria
+e ao levantamento topográfico, com elaboração de planta e memorial descritivo
+que servirão de base para a sentença demarcatória.
+
+Requer-se, desde já, a nomeação de perito especializado em topografia e
+engenharia de agrimensura para realização da perícia demarcatória, com
+apresentação de: (i) planta planimétrica do imóvel do Autor; (ii) memorial
+descritivo das divisas; (iii) indicação precisa dos marcos a serem fixados
+ou restaurados; (iv) levantamento da área eventualmente invadida pelo Réu.
+```
+
+#### 4.3 Da Indenização por Área Esbulhada *(se cumulado)*
+
+```
+A ocupação indevida pelo(a) Réu(é) de faixa de [ÁREA] do imóvel do(a) Autor(a)
+configura esbulho possessório passível de indenização pelos frutos percebidos
+e deteriorações causadas (art. 1.216, CC), a serem apurados em liquidação de
+sentença após o trabalho pericial, observado o período de [DATA DO INÍCIO DA
+OCUPAÇÃO INDEVIDA] até a efetiva desocupação da área invadida.
+```
+
+#### 4.4 Das Despesas Periciais
+
+```
+As despesas com a demarcação serão repartidas proporcionalmente entre os
+confinantes, conforme determina o art. 1.297, §1º, do Código Civil, ressalvada
+a hipótese de o(a) Réu(é) ser o único responsável pela controvérsia, caso em
+que suportará integralmente os custos (art. 82, §2º, CPC).
+```
+
+---
+
+### 5. DOS PEDIDOS
+
+```
+Ante o exposto, requer a Vossa Excelência:
+
+A. A citação do(a) Réu(é) para, querendo, contestar no prazo legal;
+
+B. A nomeação de perito especializado em topografia/agrimensura para realização
+   de vistoria, levantamento planimétrico e elaboração de planta e memorial
+   descritivo dos imóveis confinantes (art. 574, CPC);
+
+C. A procedência do pedido demarcatório, determinando-se:
+   (i)  a fixação e a descrição exata dos limites entre os imóveis das partes,
+        conforme laudo pericial;
+   (ii) a expedição de mandado para instalação ou restauração dos marcos
+        divisórios nos pontos indicados pelo perito;
+   (iii) a averbação da demarcação nas matrículas dos imóveis (matrícula nº [X]
+        e nº [Y]) no Cartório de Registro de Imóveis de [COMARCA];
+
+[Se cumulado indenização:]
+D. A condenação do(a) Réu(é) ao pagamento de indenização pela ocupação
+   indevida da faixa de área esbulhada, a ser apurada em liquidação de sentença
+   (frutos percebidos e deteriorações — art. 1.216, CC);
+
+E. A condenação do(a) Réu(é) ao pagamento das despesas periciais e custas
+   processuais e honorários advocatícios (art. 85, §2º, CPC);
+
+F. A gratuidade de justiça (art. 98, CPC) [se aplicável].
+
+Protesta provar o alegado por todos os meios de prova em Direito admitidos,
+especialmente documental, pericial e testemunhal.
+
+Dá-se à causa o valor de R$ [VALOR] ([por extenso]).
+
+[Cidade/UF], [data].
+
+Nestes termos, pede deferimento.
+
+[NOME DO ADVOGADO]
+OAB/[UF] nº [NÚMERO]
+```
+
+---
+
+## Documentos que devem acompanhar a inicial
+
+- [ ] Certidão de inteiro teor (matrícula do imóvel do Autor — atualizada)
+- [ ] Certidão de inteiro teor (matrícula do imóvel do Réu — para identificação)
+- [ ] Planta ou croqui do imóvel (se disponível)
+- [ ] Memorial descritivo ou georreferenciamento (imóvel rural — INCRA)
+- [ ] Ata notarial / fotos / Boletim de Ocorrência (se houver)
+- [ ] Notificação extrajudicial ao Réu (se houver)
+- [ ] Procuração do advogado
+- [ ] Declaração de hipossuficiência (se gratuidade)
+
+## Checklist de Validação Final (DEM)
+
+- [ ] Imóvel do Autor e do Réu identificados com matrículas distintas?
+- [ ] Causa da controvérsia de limites descrita com precisão?
+- [ ] Pedido pericial formulado (topógrafo / agrimensor)?
+- [ ] Pedido de averbação nos registros imobiliários incluído?
+- [ ] Repartição das despesas periciais endereçada?
+- [ ] Cumulação com indenização justificada (se aplicável)?
+- [ ] Valor da causa em algarismos e por extenso?
+
+## Referências Legais Consolidadas — DEM
+
+| Dispositivo | Conteúdo |
+|-------------|----------|
+| Art. 1.297 | CC/2002 — Direito à demarcação e aviventação de rumos |
+| Art. 1.297, §§1º–3º | CC/2002 — Despesas e presunção de limites |
+| Art. 1.298 | CC/2002 — Presunção de pertinência das cercas intermediárias |
+| Arts. 569–587 | CPC/2015 — Procedimento especial de demarcação e divisão |
+| Art. 574 | CPC/2015 — Perícia topográfica obrigatória |
+| Art. 47 | CPC/2015 — Competência: foro da situação do imóvel |
+| Art. 85, §2º | CPC/2015 — Honorários advocatícios |
+| Art. 1.216 | CC/2002 — Indenização por frutos e deteriorações (possuidor de má-fé) |
+
+---
 
 ---
 ### [ARQUIVO: acao_imissao_posse.md]
@@ -1432,7 +1669,7 @@ em face de [NOME RÉU], [QUALIFICAÇÃO RÉU], pelos motivos a seguir expostos.
 
 ```
 §1º — [CONTEXTO E RELAÇÃO ENTRE AS PARTES]
-O(A) Autor(a) F o(a) Réu(ré) [dFscrFvFr a rFlação antFrior: familiar, negocial, de confiança etc.].
+O(A) Autor(a) e o(a) Réu(ré) [descrever a relação anterior: familiar, negocial, de confiança etc.].
 Em [DATA], foi lavrada perante o [CARTÓRIO], a [ESCRITURA PÚBLICA DE X / CONTRATO DE Y],
 pelo qual [descrever o conteúdo do ato: transferência do imóvel situado em X, pelo valor de R$ Y etc.].
 O documento foi registrado sob a matrícula nº [NÚMERO], no [CARTÓRIO DE REGISTRO DE IMÓVEIS DA COMARCA DE X].
@@ -1766,310 +2003,3 @@ OAB/[UF] nº [NÚMERO]
 - [ ] Tutela de urgência requerida se houver urgência?
 - [ ] Valor da causa em algarismos e por extenso?
 - [ ] Planta ou croqui do imóvel disponível como documento (mencionar no texto)?
-
-
----
-
-# Minuta: Ação de Demarcação de Terras (DMT)
-
-## Código: DMT | Arts. 569–578, CPC/2015 + Arts. 1.297–1.298, CC/2002
-
----
-
-## Mapa Conceitual Obrigatório — Leia Antes de Redigir
-
-### Distinção Fundamental
-
-| Ação | Objeto | Pressuposto |
-|------|--------|-------------|
-| **Demarcação (DMT)** | Fixar ou avivar limites entre imóveis confinantes | Incerteza ou controvérsia sobre a linha divisória |
-| **Divisão** | Dividir imóvel comum em partes individualizadas | Comunhão (copropriedade) do imóvel |
-| **Reivindicatória (REI)** | Recuperar a posse com base no domínio | Invasão identificada — limites já conhecidos |
-| **Reintegração de Posse (RPO)** | Recuperar posse perdida por esbulho | Ação possessória — independe de título |
-
-> ⚠️ **Demarcação × Reivindicatória:** quando há invasão de área com limites incertos, a ação correta é a demarcação. Quando os limites são conhecidos e houve invasão, cabe a reivindicatória. A confusão entre as duas é causa comum de extinção sem mérito.
-
-> ⚠️ **Demarcação cumulada com divisão (art. 570, CPC):** é possível cumular os pedidos quando o imóvel for comum e os limites com confrontantes forem incertos — tramitam em fases sequenciais.
-
-> ⚠️ **Prova pericial obrigatória:** a ação de demarcação exige perícia técnica (engenheiro agrônomo ou topógrafo) para identificar os limites corretos conforme títulos, plantas e documentos dos confrontantes. Sem prova pericial, a ação não prospera.
-
-### Hipóteses Típicas
-
-| Situação | Observação |
-|---------|-----------|
-| Marcos divisórios removidos, destruídos ou inexistentes | Caso mais comum — demarcação para avivar ou fixar novamente |
-| Títulos apontam áreas divergentes entre confrontantes | Necessidade de perícia para compatibilização |
-| Imóvel rural sem georreferenciamento | Regularizar conforme Lei 10.267/2001 + Normas do INCRA |
-| Imóvel urbano com sobreposição de matrículas | Demarcação + eventual retificação de registro (art. 213, Lei 6.015/73) |
-| Loteamento com vias e áreas públicas indefinidas | Demarcação com intervenção do Município |
-
-### Competência
-
-Foro da situação do imóvel (art. 47, CPC). Se imóvel em mais de uma comarca, o autor escolhe.
-
----
-
-## Checklist Pré-Redação
-
-- [ ] Identificar os imóveis envolvidos (matrículas, confrontantes, áreas)
-- [ ] Verificar se há títulos dos dois lados (escrituras, matrícula, CCIR, NIRF, ITR)
-- [ ] Os marcos divisórios existem, foram removidos ou nunca existiram?
-- [ ] Há laudo ou planta técnica disponível? (georreferenciamento, levantamento topográfico)
-- [ ] Identificar todos os confrontantes que serão citados (art. 574, CPC)
-- [ ] Há comunhão? → cumular divisão (art. 570, CPC)
-- [ ] Imóvel rural → verificar georreferenciamento obrigatório (INCRA)?
-- [ ] Imóvel urbano → verificar necessidade de retificação de área no CRI?
-- [ ] Há benfeitorias ou construções na área litigiosa?
-- [ ] Tutela de urgência necessária (ex.: obra em andamento na faixa disputada)?
-- [ ] Parte autora é idosa? → tramitação prioritária
-- [ ] Gratuidade de justiça?
-
----
-
-## Estrutura Obrigatória da Peça
-
-### 1. CABEÇA
-
-```
-EXCELENTÍSSIMO(A) SENHOR(A) DOUTOR(A) JUIZ(A) DE DIREITO DA [__] VARA CÍVEL
-[/ AGRÁRIA] DA COMARCA DE [COMARCA] — ESTADO DO [ESTADO]
-```
-
-### 2. QUALIFICAÇÃO E TIPO DE AÇÃO
-
-```
-[NOME COMPLETO DO AUTOR], [qualificação completa], proprietário(a) do imóvel
-[rural/urbano] descrito a seguir, por seu advogado constituído, vem,
-com fundamento nos artigos 569 e seguintes do Código de Processo Civil c/c
-artigos 1.297 e 1.298 do Código Civil, propor a presente
-
-AÇÃO DE DEMARCAÇÃO DE TERRAS [C/C DIVISÃO]
-
-em face de [NOME DO RÉU / CONFRONTANTE], [qualificação], proprietário(a) do
-imóvel confrontante descrito a seguir, e [demais confrontantes], pelos motivos
-de fato e de direito a seguir expostos.
-```
-
----
-
-### 3. DOS FATOS
-
-```
-I — DOS IMÓVEIS E DA SITUAÇÃO ATUAL
-
-O(A) Autor(a) é o(a) legítimo(a) proprietário(a) do imóvel [rural/urbano]
-denominado [NOME / DENOMINAÇÃO], situado [no lugar denominado / à Rua] [LOCALIZAÇÃO
-COMPLETA], com área de [ÁREA] [hectares/m²], inscrito sob a matrícula nº [NÚMERO]
-no [Cartório de Registro de Imóveis da Comarca de X], adquirido [forma de aquisição]
-em [DATA], conforme certidão de inteiro teor em anexo (DOC [XX]).
-
-O(A) Réu(ré)/confrontante [NOME] é proprietário(a) do imóvel [DENOMINAÇÃO],
-situado [LOCALIZAÇÃO], com área de [ÁREA], inscrito sob a matrícula nº [NÚMERO],
-conforme certidão acostada (DOC [XX]).
-
-Os imóveis são confinantes pelo [lado Norte / Sul / Leste / Oeste / denominado
-"[NOME DO LIMITE NATURAL]"], devendo compartilhar a linha divisória identificada
-[nos respectivos títulos / pela confrontação com [ELEMENTO GEOGRÁFICO]].
-
-II — DA INCERTEZA OU CONTROVÉRSIA SOBRE OS LIMITES
-
-[DESCREVER COM PRECISÃO A SITUAÇÃO QUE MOTIVOU A AÇÃO:]
-
-OPÇÃO A — Marcos removidos ou destruídos:
-Os marcos divisórios que separavam os dois imóveis foram [removidos / destruídos /
-deteriorados] em [DATA/PERÍODO], tornando impossível a identificação visual da linha
-divisória. O(A) Réu(ré) [passou a ocupar área além do limite / iniciou construção
-em faixa de área incerta / nega o traçado histórico da divisa], gerando controvérsia
-sobre a exata localização da linha de separação.
-
-OPÇÃO B — Títulos divergentes:
-Os títulos dos imóveis confrontantes indicam áreas e confrontações que, quando
-sobrepostos, apresentam divergência de [ÁREA DIVERGENTE] em relação ao [LADO /
-TRECHO] da divisa, tornando imperativa a intervenção judicial para fixação da
-linha divisória correta mediante perícia técnica.
-
-OPÇÃO C — Marcos nunca existiram:
-O imóvel do(a) Autor(a) nunca teve seus limites materializados por marcos físicos
-no trecho confrontante com o imóvel do(a) Réu(ré), havendo, atualmente, discordância
-entre as partes sobre o traçado exato da divisa conforme os respectivos títulos.
-
-III — DA NECESSIDADE DA PERÍCIA E DOS MARCOS
-
-A fixação ou aviventação dos limites exige perícia técnica por profissional
-habilitado (engenheiro agrônomo / topógrafo), com análise dos títulos de ambos
-os imóveis, documentação histórica disponível e levantamento de campo, para
-identificação da linha divisória correta e posterior implantação ou restauração
-dos marcos físicos, conforme determina o art. 577 do CPC.
-```
-
----
-
-### 4. DO DIREITO
-
-#### Do Cabimento da Ação de Demarcação
-
-```
-O art. 1.297 do Código Civil assegura ao proprietário o direito de cercar,
-murar, valar ou tapar de qualquer modo o seu prédio, bem como de constranger
-o seu confinante a proceder com ele à demarcação entre os dois prédios.
-
-O art. 569 do Código de Processo Civil regulamenta o procedimento judicial
-cabível para a demarcação de terras, que tem por objeto a fixação ou a aviventação
-dos limites entre imóveis confinantes, quando não se puder fazê-la por acordo
-entre os proprietários.
-
-Presentes os pressupostos legais — controvérsia sobre os limites entre imóveis
-confinantes e impossibilidade de solução extrajudicial —, a ação de demarcação
-é o remédio processual adequado e necessário para a definitiva solução do litígio.
-```
-
-#### Da Fase de Instrução — Perícia Obrigatória
-
-```
-Nos termos do art. 574 do Código de Processo Civil, o juiz nomeará perito para
-proceder ao traçado da linha demarcanda, fixando-lhe prazo para a entrega do laudo.
-O perito deverá:
-(i)  realizar vistoria nos imóveis e na linha divisória disputada;
-(ii) consultar os títulos de domínio de ambas as partes;
-(iii) verificar plantas, memoriais descritivos, georreferenciamentos e documentos
-      históricos disponíveis;
-(iv) propor o traçado da linha divisória fundamentado tecnicamente;
-(v)  indicar os pontos para implantação ou restauração dos marcos físicos.
-
-O laudo pericial subsidiará a sentença demarcatória, que determinará o traçado
-definitivo da linha e a implantação dos marcos (art. 578, CPC).
-```
-
-#### Da Repartição das Custas
-
-```
-Nos termos do art. 1.297, §1º, do Código Civil, as despesas de demarcação são
-divididas igualmente entre os proprietários confrontantes, salvo se os limites
-forem alterados, hipótese em que as custas serão suportadas integralmente pelo
-proprietário que tiver invadido a área alheia.
-```
-
-#### Da Tutela de Urgência
-
-```
-Requer-se, LIMINARMENTE, nos termos do artigo 300 do Código de Processo Civil,
-a concessão de TUTELA DE URGÊNCIA para determinar a IMEDIATA SUSPENSÃO de
-quaisquer atos na faixa de área litigiosa objeto da presente demarcação,
-incluindo: obras de qualquer natureza, plantios, movimentações de terra,
-terraplanagem, supressão de vegetação, remoção ou destruição de marcos e cercas,
-e invasões de qualquer espécie — sob pena de multa diária (astreinte) de
-R$ [VALOR] ([por extenso]) por ato de descumprimento.
-
-A probabilidade do direito decorre da prova documental pré-constituída: certidão
-de matrícula do imóvel do(a) Autor(a) e a divergência objetiva entre os limites
-constantes dos títulos confrontantes.
-
-O perigo de dano é concreto e atual: [DESCREVER — escolher a hipótese:]
-
-HIPÓTESE A — Obra em andamento: O(A) Réu(ré) está realizando [construção /
-terraplanagem / plantio / instalação de cerca] na faixa litigiosa, ato que, se
-consumado, tornará praticamente irreversível a delimitação fática antes do julgamento.
-
-HIPÓTESE B — Destruição de marcos: O(A) Réu(ré) procedeu à [remoção / destruição]
-dos marcos divisórios, criando insegurança jurídica e possibilitando a consolidação
-progressiva de ocupação indevida.
-
-HIPÓTESE C — Invasão em curso: O(A) Réu(ré) está avançando sobre a área objeto da
-demarcação, o que, mantido até o julgamento, consolidará a ocupação indevida.
-
-A medida é reversível: preserva apenas o status quo da faixa litigiosa, sem impedir
-o(a) Réu(ré) de exercer domínio sobre a área incontroversa.
-```
-
----
-
-### 5. DOS PEDIDOS
-
-```
-Ante o exposto, requer a Vossa Excelência:
-
-A. LIMINARMENTE, a concessão de TUTELA DE URGÊNCIA (art. 300, CPC) para
-   determinar a imediata suspensão de quaisquer obras, plantios, movimentações
-   de terra, remoção de marcos e invasões na faixa litigiosa, sob pena de multa
-   diária (astreinte) de R$ [VALOR] ([por extenso]) por ato de descumprimento;
-
-B. A citação de todos os confrontantes para integrar o polo passivo, nos termos
-   do art. 574 do CPC:
-   - [NOME DO RÉU 1], [endereço];
-   - [NOME DO RÉU 2], [endereço];
-   [repetir para cada confrontante]
-
-C. A nomeação de perito habilitado (engenheiro agrônomo / topógrafo) para:
-   (i)  realizar vistoria e levantamento de campo;
-   (ii) analisar os títulos de ambas as partes;
-   (iii) apresentar laudo com proposta de traçado da linha demarcanda;
-
-D. [Se cumulação com divisão — art. 570, CPC:] Que, após a fase de demarcação,
-   seja processada a divisão do imóvel, nos termos dos arts. 588 e seguintes do CPC;
-
-E. Ao final, a procedência da ação, com:
-   (i)  a fixação definitiva da linha demarcatória entre os imóveis do(a) Autor(a)
-        (matrícula nº [X]) e do(a) Réu(ré) (matrícula nº [Y]), conforme o laudo pericial;
-   (ii) a determinação para implantação ou restauração dos marcos físicos divisórios
-        no traçado fixado na sentença (art. 578, CPC);
-   (iii) a expedição de mandado ao Cartório de Registro de Imóveis para averbação
-         da demarcação nas respectivas matrículas;
-
-F. A condenação do(a) Réu(ré) ao pagamento de [metade das / totalidade das] custas
-   processuais e honorários advocatícios, nos termos do art. 1.297, §1º, do CC
-   c/c art. 85, §2º, do CPC;
-
-G. [Se gratuidade:] A concessão da gratuidade de justiça (art. 98, CPC).
-
-Dá-se à causa o valor de R$ [VALOR DO IMÓVEL] ([por extenso]).
-
-Nestes termos, pede deferimento.
-
-[CIDADE/UF], [DATA].
-
-[NOME DO ADVOGADO]
-OAB/[UF] nº [NÚMERO]
-```
-
----
-
-## Documentos que devem acompanhar a inicial
-
-- [ ] Certidão de inteiro teor atualizada da matrícula do imóvel do Autor (CRI)
-- [ ] Certidão de inteiro teor do imóvel confrontante (se disponível)
-- [ ] Escritura pública de aquisição do imóvel do Autor
-- [ ] Planta ou croqui do imóvel (se disponível)
-- [ ] Georreferenciamento (INCRA) se imóvel rural e se disponível
-- [ ] CCIR / NIRF (imóvel rural)
-- [ ] Fotos dos marcos existentes, destruídos ou da área litigiosa
-- [ ] Ata notarial ou boletim de ocorrência (se houver conflito anterior)
-- [ ] Procuração e declaração de hipossuficiência (se gratuidade)
-
-## Checklist de Validação Final (DMT)
-
-- [ ] Demarcação vs. reivindicatória: situação corretamente enquadrada?
-- [ ] Todos os confrontantes identificados para citação (art. 574, CPC)?
-- [ ] Perícia técnica requerida com escopo definido?
-- [ ] Cumulação com divisão requerida se pertinente (art. 570, CPC)?
-- [ ] Repartição das custas fundamentada (art. 1.297, §1º, CC)?
-- [ ] Averbação da demarcação no CRI requerida?
-- [ ] Tutela de urgência SEMPRE presente — hipótese (obra/marcos/invasão) descrita em DO DIREITO?
-- [ ] Multa diária (astreinte) fixada no pedido A?
-- [ ] Valor da causa = valor do imóvel em algarismos e por extenso?
-
-## Referências Legais Consolidadas — DMT
-
-| Dispositivo | Conteúdo |
-|-------------|----------|
-| Art. 1.297 | CC/2002 — Direito de demarcar + repartição das custas |
-| Art. 1.298 | CC/2002 — Presunção de igualdade de partes na linha divisória |
-| Arts. 569–578 | CPC/2015 — Ação de demarcação e divisão |
-| Art. 569 | CPC/2015 — Cabimento da demarcação |
-| Art. 570 | CPC/2015 — Cumulação com divisão |
-| Art. 574 | CPC/2015 — Citação dos confrontantes + nomeação de perito |
-| Art. 577 | CPC/2015 — Laudo pericial e proposta de traçado |
-| Art. 578 | CPC/2015 — Sentença demarcatória e implantação dos marcos |
-| Art. 47 | CPC/2015 — Competência: foro da situação do imóvel |
-| Lei 10.267/2001 | Georreferenciamento obrigatório de imóveis rurais (INCRA) |
-| Art. 213 | Lei 6.015/73 — Retificação de registro imobiliário |
-

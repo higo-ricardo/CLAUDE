@@ -270,7 +270,7 @@ SÃºmula 568 - A identificaÃ§Ã£o criminal nÃ£o constitui constrangimento 
 
 SÃºmula 592 - Nos crimes falimentares, aplicam-se as causas interruptivas da prescriÃ§Ã£o, previstas no CÃ³digo Penal.
 
-SÃºmula 594 - Os direitos de queixa C de representaÃ§Ã£o podem ser exercidos, independentemente, pelo ofendido ou por seu representante legal.
+SÃºmula 594 - Os direitos de queixa e de representaÃ§Ã£o podem ser exercidos, independentemente, pelo ofendido ou por seu representante legal.
 
 SÃºmula 601 - Os arts. 3Âº, II, e 55 da Lei Complementar nÂº 40/81 (Lei OrgÃ¢nica do MinistÃ©rio PÃºblico) nÃ£o revogaram a legislaÃ§Ã£o anterior que atribui a iniciativa para a aÃ§Ã£o penal pÃºblica, no processo sumÃ¡rio, ao juiz ou Ã  autoridade policial, mediante Portaria ou Auto de PrisÃ£o em Flagrante.
 
@@ -338,7 +338,7 @@ SÃºmula 711 - A lei penal mais grave aplica-se ao crime continuado ou ao crime
 
 SÃºmula 712 - Ã‰ nula a decisÃ£o que determina o desaforamento de processo da competÃªncia do jÃºri sem audiÃªncia da defesa.
 
-SÃºmula 714 - Ã‰ concorrente a legitimidade do ofendido, mediante queixa, C do MinistÃ©rio PÃºblico, condicionada Ã  representaÃ§Ã£o do ofendido, para a aÃ§Ã£o penal por crime contra a honra de servidor pÃºblico em razÃ£o do exercÃ­cio de suas funÃ§Ãµes.
+SÃºmula 714 - Ã‰ concorrente a legitimidade do ofendido, mediante queixa, e do MinistÃ©rio PÃºblico, condicionada Ã  representaÃ§Ã£o do ofendido, para a aÃ§Ã£o penal por crime contra a honra de servidor pÃºblico em razÃ£o do exercÃ­cio de suas funÃ§Ãµes.
 
 SÃºmula 715 - A pena unificada para atender ao limite de trinta anos de cumprimento, determinado pelo art. 75 do CÃ³digo Penal, nÃ£o Ã© considerada para a concessÃ£o de outros benefÃ­cios, como o livramento condicional ou regime mais favorÃ¡vel de execuÃ§Ã£o.
 
@@ -462,7 +462,7 @@ SÃºmula 430 - Pedido de reconsideraÃ§Ã£o na via administrativa nÃ£o inte
 
 SÃºmula 441 - O militar, que passa Ã  inatividade com proventos integrais, nÃ£o tem direito Ã s cotas trigÃ©simas a que se refere o CÃ³digo de Vencimentos e Vantagens dos Militares.
 
-SÃºmula 468 - ApÃ³s a C. C. nÂº 5 de 21.11.61, em contrato firmado com a UniÃ£o, Estado, MunicÃ­pio ou autarquia, Ã© devido o impÃ´sto federal de sÃªlo pelo contratante nÃ£o protegido pela imunidade, ainda que haja repercussÃ£o do Ã´nus tributÃ¡rio sÃ´bre o patrimÃ´nio daquelas entidades.
+SÃºmula 468 - ApÃ³s a E. C. nÂº 5 de 21.11.61, em contrato firmado com a UniÃ£o, Estado, MunicÃ­pio ou autarquia, Ã© devido o impÃ´sto federal de sÃªlo pelo contratante nÃ£o protegido pela imunidade, ainda que haja repercussÃ£o do Ã´nus tributÃ¡rio sÃ´bre o patrimÃ´nio daquelas entidades.
 
 SÃºmula 476 - Desapropriadas as aÃ§Ãµes de uma sociedade, o Poder desapropriante, imitido na posse, pode exercer, desde logo, todos os direitos inerentes aos respectivos tÃ­tulos.
 
@@ -728,7 +728,7 @@ SÃºmula 407 - NÃ£o tem direito ao tÃªrÃ§o de campanha o militar que nÃ�
 
 SÃºmula 408 - Os servidores fazendÃ¡rios nÃ£o tÃªm direito a percentagem pela arrecadaÃ§Ã£o de receita federal destinada ao Banco Nacional de Desenvolvimento EconÃ´mico.
 
-SÃºmula 412 - No compromisso de compra C venda com clÃ¡usula de arrependimento, a devoluÃ§Ã£o do sinal, por quem o deu, ou a sua restituiÃ§Ã£o em dÃ´bro, por quem o recebeu, exclui indenizaÃ§Ã£o maior, a tÃ­tulo de perdas e danos, salvo os juros moratÃ³rios e os encargos do processo.
+SÃºmula 412 - No compromisso de compra e venda com clÃ¡usula de arrependimento, a devoluÃ§Ã£o do sinal, por quem o deu, ou a sua restituiÃ§Ã£o em dÃ´bro, por quem o recebeu, exclui indenizaÃ§Ã£o maior, a tÃ­tulo de perdas e danos, salvo os juros moratÃ³rios e os encargos do processo.
 
 SÃºmula 413 - O compromisso de compra e venda de imÃ³veis, ainda que nÃ£o loteados, dÃ¡ direito Ã  execuÃ§Ã£o compulsÃ³ria, quando reunidos os requisitos legais.
 
@@ -1490,4 +1490,3 @@ SÃºmula 720 - O art. 309 do CÃ³digo de TrÃ¢nsito Brasileiro, que reclama d
 
 ---
 Contagem Final: 736
-

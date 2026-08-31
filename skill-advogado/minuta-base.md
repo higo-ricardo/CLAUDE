@@ -1,5 +1,15 @@
 
-
+> **Papel deste arquivo — Guia Estrutural de Referência (leitura passiva)**
+>
+> `minuta-base.md` não é um template de composição ativa. É um guia de padrões
+> estruturais e blocos de referência que o `estagiario` consulta para manter
+> consistência de formato, vocabulário e fechamento forense entre todas as minutas.
+>
+> Cada arquivo de minutas por domínio (A–G) contém seus próprios pedidos específicos
+> e fechamentos completos — não há composição por referência a este arquivo.
+>
+> **Uso correto:** ler antes de redigir qualquer peça para absorver o padrão.
+> **Uso incorreto:** substituir ou montar pedidos das minutas a partir deste arquivo.
 ---
 ### [ARQUIVO: cabecalho_jec.md]
 
@@ -7,7 +17,7 @@ EXCELENTÍSSIMO(A) SENHOR(A) DOUTOR(A) JUIZ(A) DE DIREITO DO
 JUIZADO ESPECIAL CÍVEL DA COMARCA DE [COMARCA] — ESTADO DO [ESTADO]
 
 ---
-### [ARQUIVO: CabeCalho_vara_civel.md]
+### [ARQUIVO: cabecalho_vara_civel.md]
 
 EXCELENTÍSSIMO(A) SENHOR(A) DOUTOR(A) JUIZ(A) DE DIREITO DA [VARA] VARA CÍVEL
 DA COMARCA DE [COMARCA] — ESTADO DO [ESTADO]
@@ -96,5 +106,4 @@ Nestes termos, pede deferimento.
 OAB/[UF] nº [NÚMERO]
 
 ---
-
 
