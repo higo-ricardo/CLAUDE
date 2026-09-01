@@ -1,0 +1,20 @@
+{
+  "_instrucoes": "Preencher via /novo-projeto ou editar manualmente. Ver project.schema.json.",
+  "title": "",
+  "subtitle": "",
+  "author": "",
+  "genre": "",
+  "subgenre": "",
+  "keywords": [],
+  "language": "Português (Brasil)",
+  "language_code": "pt-BR",
+  "language_level": "",
+  "target_audience": "",
+  "rating": "Livre",
+  "estimated_pages": 0,
+  "publish_channel": "",
+  "output_format": "",
+  "current_stage": "M1",
+  "current_version": "v0.1",
+  "checklist": {}
+}

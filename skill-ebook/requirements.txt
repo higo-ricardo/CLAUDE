@@ -1,0 +1,32 @@
+# ─────────────────────────────────────────────────────────────
+# Editora Ebook v2 — requirements.txt
+# Python 3.8+
+# ─────────────────────────────────────────────────────────────
+
+# ── Obrigatórias (stdlib apenas — nenhuma instalação necessária) ──────────────
+# Os scripts core (scorer, analyzer, versioner, decisions, publisher,
+# exporter, templater, runner) usam exclusivamente a biblioteca padrão:
+#   argparse, json, os, re, shutil, subprocess, sys, pathlib, datetime, difflib
+
+# ── Streaming da API Anthropic (streamer.py stream-api) ──────────────────────
+# Instalar apenas se usar o modo stream-api do streamer.py
+anthropic>=0.100.0
+
+# ── Exportação de documentos (exporter.py) ───────────────────────────────────
+# pandoc é instalado via sistema operacional, não via pip:
+#
+#   Ubuntu/Debian:  sudo apt install pandoc
+#   macOS:          brew install pandoc
+#   Windows:        winget install JohnMacFarlane.Pandoc
+#   Docs:           https://pandoc.org/installing.html
+#
+# PDF via weasyprint (alternativa ao xelatex, mais fácil de instalar):
+weasyprint>=60.0
+
+# ── Desenvolvimento e testes (opcionais) ─────────────────────────────────────
+# Descomente para ambiente de desenvolvimento:
+#
+# pytest>=7.0          # testes automatizados
+# pytest-cov>=4.0      # cobertura de código
+# black>=23.0          # formatação de código
+# ruff>=0.1.0          # linter rápido

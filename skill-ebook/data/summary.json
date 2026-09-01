@@ -1,0 +1,21 @@
+{
+  "_schema": "editora-ebook summary.json v2",
+  "_instrucoes": "Preencher após M3 (estrutura aprovada). analyzer.py --mode gap usa este arquivo para calcular cobertura real vs. planejada. 'id' deve corresponder ao nome do arquivo .md sem extensão.",
+  "chapters": [
+    {
+      "id": "introducao",
+      "title": "Introdução",
+      "target_words": 800
+    },
+    {
+      "id": "cap01",
+      "title": "Capítulo 1: [Título]",
+      "target_words": 2000
+    },
+    {
+      "id": "conclusao",
+      "title": "Conclusão",
+      "target_words": 600
+    }
+  ]
+}

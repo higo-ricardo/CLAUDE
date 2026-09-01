@@ -1,0 +1,53 @@
+{
+  "_schema": "editora-ebook project.json v2",
+  "_instrucoes": "Preencher este arquivo no M1 (briefing). publisher.py e versioner.py leem daqui.",
+
+  "title": "",
+  "subtitle": "",
+  "author": "",
+  "city": "",
+  "contact": "",
+
+  "genre": "",
+  "subgenre": "",
+  "keywords": [],
+
+  "language": "Português (Brasil)",
+  "language_code": "pt-BR",
+  "language_level": "",
+  "target_audience": "",
+  "rating": "Livre",
+
+  "estimated_pages": 0,
+  "estimated_chapters": 0,
+
+  "publish_channel": "",
+  "output_format": "",
+  "kdp_category_1": "",
+  "kdp_category_2": "",
+
+  "current_stage": "M1",
+  "current_version": "v0.1",
+
+  "part1_name": "",
+  "part2_name": "",
+  "part3_name": "",
+
+  "checklist": {
+    "blurb_short": false,
+    "blurb_long": false,
+    "metadata_complete": false,
+    "keywords_researched": false,
+    "sales_page": false,
+    "cover_ready": false,
+    "correct_format": false,
+    "isbn": false,
+    "copyright_page": false,
+    "author_contact": false,
+    "final_cta": false,
+    "toc_links": false,
+    "author_bio": false,
+    "conclusion": false,
+    "references": false
+  }
+}
