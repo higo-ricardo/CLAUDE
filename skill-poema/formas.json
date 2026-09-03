@@ -1,0 +1,49 @@
+{
+  "soneto_shakespeariano": {
+    "n_versos": 14,
+    "modo": "classico",
+    "silabas_por_verso": 10,
+    "esquema_rima": "ABABCDCDEFEFGG",
+    "agrupamento": [4, 4, 4, 2]
+  },
+  "soneto_petrarquiano": {
+    "n_versos": 14,
+    "modo": "classico",
+    "silabas_por_verso": 10,
+    "agrupamento": [8, 6],
+    "esquema_rima_octeto": "ABBAABBA",
+    "esquema_rima_sexteto_opcoes": ["CDECDE", "CDCDCD", "CDEDCE"]
+  },
+  "soneto_camoniano": {
+    "n_versos": 14,
+    "modo": "classico",
+    "silabas_por_verso": 10,
+    "agrupamento": [4, 4, 3, 3],
+    "esquema_rima_quartetos": "ABBAABBA",
+    "esquema_rima_tercetos_opcoes": ["CDCDCD", "CDCCDC", "CDECDE"]
+  },
+  "haicai": {
+    "n_versos": 3,
+    "modo": "simples",
+    "silabas_por_verso_lista": [5, 7, 5],
+    "esquema_rima": null
+  },
+  "tanka": {
+    "n_versos": 5,
+    "modo": "simples",
+    "silabas_por_verso_lista": [5, 7, 5, 7, 7],
+    "esquema_rima": null
+  },
+  "villanelle": {
+    "n_versos": 19,
+    "modo": "classico",
+    "agrupamento": [3, 3, 3, 3, 3, 4],
+    "esquema_rima": "ABAABAABAABAABAABAA",
+    "observacao": "esquema de rima aproximado pelas terminações; a validação do refrão literal (versos 1 e 3 repetidos) ainda não é automática — confira manualmente."
+  },
+  "limerique": {
+    "n_versos": 5,
+    "modo": "classico",
+    "esquema_rima": "AABBA"
+  }
+}
