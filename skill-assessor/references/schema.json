@@ -1,0 +1,132 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$comment": "Schema para validação da saída do extrator processual — assessoria-processual v2.0.0",
+  "type": "object",
+  "required": ["status_extracao", "mensagem", "numero_processo"],
+  "properties": {
+    "status_extracao": {
+      "type": "string",
+      "enum": ["sucesso", "parcial", "nao_e_processo"]
+    },
+    "mensagem": { "type": "string" },
+    "numero_processo": {
+      "type": ["string", "null"],
+      "pattern": "^\\d{7}-\\d{2}\\.\\d{4}\\.\\d{1,2}\\.\\d{2}\\.\\d{4}$"
+    },
+    "tribunal": { "type": ["string", "null"] },
+    "vara": { "type": ["string", "null"] },
+    "fase_processual": {
+      "type": ["string", "null"],
+      "enum": ["Conhecimento", "Instrução", "Sentença", "Recurso", "Execução", "Arquivado", null]
+    },
+    "valor_causa": { "type": ["string", "null"] },
+    "parte_autora": { "type": ["string", "null"] },
+    "parte_requerida": { "type": ["string", "null"] },
+    "tipo_acao": {
+      "type": ["object", "null"],
+      "required": ["categoria_primaria", "confianca"],
+      "properties": {
+        "categoria_primaria": {
+          "type": "string",
+          "enum": [
+            "FAMÍLIA", "CÍVEL PATRIMONIAL", "TRABALHISTA", "CRIMINAL",
+            "CONSUMIDOR", "PREVIDENCIÁRIO", "EMPRESARIAL",
+            "FISCAL / TRIBUTÁRIO", "SUCESSÓRIO / INVENTÁRIO", "NÃO IDENTIFICADO"
+          ]
+        },
+        "categoria_secundaria": { "type": ["string", "null"] },
+        "confianca": { "type": "string", "enum": ["alta", "média", "baixa"] },
+        "sinais_identificados": { "type": "array", "items": { "type": "string" } }
+      }
+    },
+    "bens": {
+      "type": "object",
+      "properties": {
+        "imoveis": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "properties": {
+              "endereco": { "type": "string" },
+              "matricula": { "type": "string" },
+              "aquisicao": { "type": "string" },
+              "valor": { "type": "string" }
+            }
+          }
+        },
+        "veiculos": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "properties": {
+              "marca": { "type": "string" },
+              "modelo": { "type": "string" },
+              "ano": { "type": "string" },
+              "placa": { "type": "string" },
+              "valor": { "type": "string" }
+            }
+          }
+        },
+        "moveis": { "type": "array", "items": { "type": "string" } }
+      }
+    },
+    "dividas": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "valor": { "type": "string" },
+          "credor": { "type": "string" },
+          "devedor": { "type": "string" },
+          "data": { "type": "string" },
+          "natureza": {
+            "type": "string",
+            "enum": ["contratual", "tributária", "trabalhista", "alimentar", "outra"]
+          }
+        }
+      }
+    },
+    "guarda_convivencia": {
+      "type": ["object", "null"],
+      "properties": {
+        "guarda": { "type": "string" },
+        "visitas": { "type": "string" },
+        "argumentos_autor": { "type": "string" },
+        "argumentos_reu": { "type": "string" },
+        "laudos_mencionados": { "type": "string" }
+      }
+    },
+    "alimentos": {
+      "type": ["object", "null"],
+      "properties": {
+        "percentual": { "type": "string" },
+        "valor_fixo": { "type": "string" },
+        "base_calculo": { "type": "string" },
+        "necessidade": { "type": "string" },
+        "possibilidade": { "type": "string" },
+        "tutela_antecipada": { "type": "string" }
+      }
+    },
+    "cronologia_completa": {
+      "type": "array",
+      "$comment": "Sem limite de itens — registrar TODOS os atos identificados",
+      "items": {
+        "type": "object",
+        "required": ["data", "tipo_ato", "descricao"],
+        "properties": {
+          "data": { "type": "string" },
+          "tipo_ato": {
+            "type": "string",
+            "enum": [
+              "INICIAL", "DESPACHO", "DECISAO_INT", "CITACAO", "CONTESTACAO",
+              "REPLICA", "AUDIENCIA", "PERICIA", "MANIFESTACAO", "SENTENCA",
+              "RECURSO", "ACORDAO", "EXECUCAO", "ACORDO", "ARQUIVAMENTO", "OUTRO"
+            ]
+          },
+          "autor_ato": { "type": ["string", "null"] },
+          "descricao": { "type": "string", "maxLength": 300 }
+        }
+      }
+    }
+  }
+}
