@@ -1,0 +1,106 @@
+{
+  "_observacao": "Produzido pelo Agente Redator. NÃO inclua 'referencias_formatadas' nem 'fichamento' aqui — ambos calculados automaticamente por scripts/gerar_projeto.py a partir de fontes.json. Cite sempre pela chave devolvida por fontes_registry.py (ex.: SILVA2022), nunca formate a citação à mão. Este exemplo mistura os três formatos possíveis (ver comentários) — na prática, spec.json real inclui só um: 'resumo' + Resultados e Discussão + Conclusão (tipo_projeto=tcc_monografia, com Fundamentação Teórica própria, OU tcc_artigo, sem Fundamentação Teórica separada — dobrada na Introdução, e sem capa/folha de rosto/folha de aprovação/sumário) OU 'cronograma' (tipo_projeto=projeto_pesquisa_tcc) — nunca resumo e cronograma juntos.",
+  "metadata": {
+    "instituicao": "<mesmo valor de elicitacao.json>",
+    "curso": "<mesmo valor de elicitacao.json>",
+    "linha_pesquisa": "<opcional, mesmo valor de elicitacao.json>",
+    "autor": "<mesmo valor de elicitacao.json>",
+    "orientador": "<mesmo valor de elicitacao.json>",
+    "titulo": "<título final do trabalho, já delimitado>",
+    "cidade": "<mesmo valor de elicitacao.json>",
+    "ano": 2026,
+    "tipo_projeto": "tcc_monografia | tcc_artigo | projeto_pesquisa_tcc",
+    "duracao_meses": 6,
+    "granularidade_cronograma": "mensal | semestral"
+  },
+  "_observacao_resumo": "campo 'resumo' abaixo: só para tipo_projeto=tcc_monografia/tcc_artigo (NBR 6028) — omita inteiramente para projeto_pesquisa_tcc",
+  "resumo": {
+    "pt": {
+      "texto": "<parágrafo único, sem quebras — objetivo, método, principais resultados e conclusão em 150-500 palavras (100-250 se artigo), narrado no passado>",
+      "palavras_chave": ["<termo 1>", "<termo 2>", "<termo 3>"]
+    },
+    "en": {
+      "texto": "<mesmo conteúdo do resumo em português, não uma tradução mecânica>",
+      "palavras_chave": ["<term 1>", "<term 2>", "<term 3>"]
+    }
+  },
+  "secoes": [
+    {"titulo": "Introdução", "paragrafos": ["<parágrafo 1>", "<parágrafo 2>"]},
+    {"titulo": "Problema de Pesquisa", "paragrafos": ["<pergunta central, ancorada numa lacuna de mapa_lacunas.json>"]},
+    {
+      "titulo": "Justificativa",
+      "subsecoes": [
+        {"titulo": "Relevância Acadêmica", "paragrafos": ["<lacuna real, citando a chave da fonte>"]},
+        {"titulo": "Relevância Prática e Didática", "paragrafos": ["..."]},
+        {"titulo": "Originalidade e Contribuição", "paragrafos": ["..."]}
+      ]
+    },
+    {"titulo": "Objetivo Geral", "paragrafos": ["<uma frase, amarrada ao problema de pesquisa>"]},
+    {"titulo": "Objetivos Específicos", "lista_numerada": ["<objetivo 1>", "<objetivo 2>", "<objetivo 3>"]},
+    {
+      "_observacao": "só inclua esta seção se o objeto de estudo for um processo/sistema/fluxo ou um artefato técnico (DSR) — omita a seção inteira (não deixe vazia) se não se aplicar",
+      "titulo": "Modelo Conceitual",
+      "fluxo": "<Etapa A → Etapa B → Etapa C — preserve as setas literalmente, nunca converta em lista>",
+      "paragrafos": ["<explicação breve do fluxo>"]
+    },
+    {
+      "titulo": "Fundamentação Teórica",
+      "subsecoes": [
+        {"titulo": "<nome do sub-tema 1, igual ao usado em buscas_log.json/mapa_lacunas.json>", "paragrafos": ["<estado da arte, citando (SOBRENOME, ano) usando as chaves de fontes.json>"]}
+      ]
+    },
+    {"titulo": "Metodologia", "paragrafos": ["<tipo de pesquisa e desenho — ver references/metodologias-tcc.md>"]},
+    {
+      "_observacao": "bloco condicional — só inclua se a metodologia for revisão bibliográfica",
+      "titulo": "Tags de Busca",
+      "paragrafos": ["<combinações booleanas usadas, incluindo recorte temporal/idioma>"]
+    },
+    {
+      "_observacao": "bloco condicional — só inclua se a metodologia for revisão bibliográfica",
+      "titulo": "Critérios de Exclusão",
+      "lista_numerada": ["<critério 1>", "<critério 2>"]
+    },
+    {
+      "_observacao": "bloco condicional — só inclua se a metodologia for revisão bibliográfica",
+      "titulo": "Estrutura Proposta da Revisão",
+      "paragrafos": ["<esqueleto de capítulos, organizado pelos sub-temas>"]
+    },
+    {
+      "_observacao": "bloco condicional — só inclua se a metodologia for revisão bibliográfica",
+      "titulo": "Protocolo de Seleção das Fontes",
+      "lista_numerada": ["Busca", "Triagem inicial", "Aplicação dos critérios de exclusão", "Fichamento e síntese"]
+    },
+    {
+      "_observacao": "só para tipo_projeto=tcc_monografia/tcc_artigo — trabalho já executado. Omita para projeto_pesquisa_tcc.",
+      "titulo": "Resultados e Discussão",
+      "paragrafos": ["<o que foi encontrado/produzido, discutido à luz da Fundamentação Teórica>"]
+    },
+    {
+      "_observacao": "só para tipo_projeto=tcc_monografia/tcc_artigo. Omita para projeto_pesquisa_tcc.",
+      "titulo": "Conclusão",
+      "paragrafos": ["<retomada do problema de pesquisa e dos objetivos, síntese dos achados, limitações, trabalhos futuros>"]
+    },
+    {
+      "_observacao": "só para tipo_projeto=projeto_pesquisa_tcc — a pesquisa ainda não foi feita. Omita para tcc_monografia/tcc_artigo.",
+      "titulo": "Cronograma",
+      "paragrafos": []
+    },
+    {
+      "_observacao": "bloco condicional — só inclua se a metodologia for revisão bibliográfica; deixe paragrafos vazio, a tabela é preenchida automaticamente por gerar_projeto.py a partir de fontes.json",
+      "titulo": "Registro das Fontes",
+      "paragrafos": []
+    }
+  ],
+  "_observacao_cronograma": "campo 'cronograma' abaixo: só para tipo_projeto=projeto_pesquisa_tcc — omita inteiramente para tcc_monografia/tcc_artigo",
+  "cronograma": {
+    "atividades": ["Revisão de literatura", "Coleta/Implementação", "Análise", "Redação"],
+    "marcacoes": {
+      "_observacao": "chave = índice da atividade (como string), valor = lista de índices de coluna marcados com X",
+      "0": [0, 1],
+      "1": [1, 2]
+    },
+    "duracao_meses": 6,
+    "granularidade": "mensal"
+  }
+}
+

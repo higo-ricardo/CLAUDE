@@ -1,0 +1,14 @@
+{
+  "<slug_subtema_1>": {
+    "fontes": ["SOBRENOME2022", "OUTROSOBRENOME2021"],
+    "convergencia": "<no que as fontes concordam — consenso já estabelecido, não é contribuição do projeto>",
+    "divergencia": "<onde as fontes divergem, se houver — pode virar problema de pesquisa>",
+    "lacuna": "<o que os próprios autores apontam como não resolvido/não explorado — isto alimenta a Justificativa e a Fundamentação Teórica>"
+  },
+  "<slug_subtema_2>": {
+    "fontes": ["OUTRACHAVE2020"],
+    "convergencia": "...",
+    "divergencia": "...",
+    "lacuna": "..."
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "meta": {
+    "titulo": "[TÍTULO DO ARTIGO]",
+    "autores": ["[NOME COMPLETO] ([AFILIAÇÃO/INSTITUIÇÃO])"],
+    "resumo": "[RESUMO — 100 a 250 palavras, um parágrafo cobrindo objetivo, método, principais resultados e conclusão]",
+    "palavras_chave": ["[termo 1]", "[termo 2]", "[termo 3]"],
+    "abstract": "[ABSTRACT — versão funcional em inglês do resumo, não tradução literal]",
+    "keywords": ["[term 1]", "[term 2]", "[term 3]"],
+    "periodico_alvo": "[NOME DO PERIÓDICO, SE JÁ DEFINIDO]",
+    "norma_citacao": "abnt",
+    "nota_origem": ""
+  },
+  "secoes": [
+    {"titulo": "Introdução", "texto": "..."},
+    {"titulo": "Método", "texto": "..."},
+    {"titulo": "Resultados", "texto": "..."},
+    {"titulo": "Discussão", "texto": "..."},
+    {"titulo": "Conclusão", "texto": "..."}
+  ],
+  "numerar_secoes": false,
+  "referencias_log": "research_log.json"
+}

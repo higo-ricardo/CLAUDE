@@ -1,0 +1,20 @@
+{
+  "_observacao": "Este arquivo não deve ser escrito manualmente — é gerado por scripts/fontes_registry.py (método persistir()) a cada fonte que o Agente Pesquisador registra com registry.registrar(...). Este schema documenta o formato só pra referência.",
+  "fontes": [
+    {
+      "chave": "SOBRENOME2022",
+      "autores": [
+        {"sobrenome": "Sobrenome", "nome": "Nome completo"}
+      ],
+      "titulo": "<título da fonte>",
+      "ano": 2022,
+      "tipo": "periodico | livro | capitulo | dissertacao | tese | anais | eletronico",
+      "subtema": "<slug do sub-tema ao qual esta fonte pertence — mesmo slug usado em buscas_log.json>",
+      "sufixo": "",
+      "campos": {
+        "_nota": "campos extras variam por tipo — ver formatar_referencia() em fontes_registry.py para os campos esperados por tipo"
+      }
+    }
+  ],
+  "renomeacoes": []
+}

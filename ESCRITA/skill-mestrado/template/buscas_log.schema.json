@@ -1,0 +1,11 @@
+{
+  "<slug_subtema_1>": [
+    "<query de busca 1 usada para este sub-tema>",
+    "<query de busca 2, com termos diferentes da primeira>",
+    "<query de busca 3, se precisou reformular pra atingir o piso>"
+  ],
+  "<slug_subtema_2>": [
+    "<query de busca 1>",
+    "<query de busca 2>"
+  ]
+}

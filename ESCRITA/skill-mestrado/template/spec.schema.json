@@ -1,0 +1,55 @@
+{
+  "_observacao": "Produzido pelo Agente Redator. NÃO inclua 'referencias_formatadas' aqui — isso é calculado automaticamente por scripts/gerar_projeto.py a partir de fontes.json. Cite sempre pela chave devolvida por fontes_registry.py (ex.: SILVA2022), nunca formate a citação à mão.",
+  "metadata": {
+    "instituicao": "<mesmo valor de elicitacao.json>",
+    "programa": "<mesmo valor de elicitacao.json>",
+    "linha_pesquisa": "<mesmo valor de elicitacao.json>",
+    "autor": "<mesmo valor de elicitacao.json>",
+    "orientador": "<mesmo valor de elicitacao.json>",
+    "titulo": "<título final do projeto, já delimitado>",
+    "cidade": "<mesmo valor de elicitacao.json>",
+    "ano": 2026,
+    "tipo_projeto": "selecao_mestrado | selecao_doutorado | qualificacao | edital_fomento",
+    "duracao_meses": 24,
+    "granularidade_cronograma": "mensal | semestral"
+  },
+  "secoes": [
+    {"titulo": "Introdução", "paragrafos": ["<parágrafo 1>", "<parágrafo 2>"]},
+    {"titulo": "Problema de Pesquisa", "paragrafos": ["<pergunta central, ancorada numa lacuna de mapa_lacunas.json>"]},
+    {
+      "titulo": "Justificativa",
+      "subsecoes": [
+        {"titulo": "Relevância Científica", "paragrafos": ["<lacuna real, citando a chave da fonte>"]},
+        {"titulo": "Relevância Social/Prática", "paragrafos": ["..."]},
+        {"titulo": "Originalidade", "paragrafos": ["..."]}
+      ]
+    },
+    {"titulo": "Objetivo Geral", "paragrafos": ["<uma frase, amarrada ao problema de pesquisa>"]},
+    {"titulo": "Objetivos Específicos", "lista_numerada": ["<objetivo 1>", "<objetivo 2>", "<objetivo 3>"]},
+    {
+      "_observacao": "omita lista_numerada (deixe vazia) se hipóteses não fizerem sentido metodológico (ver Passo 4 do SKILL.md) — numeracao.py pula a seção automaticamente",
+      "titulo": "Hipóteses",
+      "opcional": true,
+      "lista_numerada": []
+    },
+    {
+      "titulo": "Fundamentação Teórica",
+      "subsecoes": [
+        {"titulo": "<nome do sub-tema 1, igual ao usado em buscas_log.json/mapa_lacunas.json>", "paragrafos": ["<estado da arte, citando (SOBRENOME, ano) usando as chaves de fontes.json>"]},
+        {"titulo": "<nome do sub-tema 2>", "paragrafos": ["..."]}
+      ]
+    },
+    {"titulo": "Metodologia", "paragrafos": ["<tipo de pesquisa e desenho — incluindo a trilha DSR quando o objeto de estudo for um artefato técnico>"]},
+    {"titulo": "Cronograma", "paragrafos": []}
+  ],
+  "cronograma": {
+    "atividades": ["Revisão de literatura", "Coleta de dados", "Análise de dados", "Redação", "Qualificação", "Defesa"],
+    "marcacoes": {
+      "_observacao": "chave = índice da atividade (como string), valor = lista de índices de coluna marcados com X",
+      "0": [0, 1],
+      "1": [1, 2]
+    },
+    "duracao_meses": 24,
+    "granularidade": "semestral"
+  }
+}

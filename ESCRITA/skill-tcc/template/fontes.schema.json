@@ -1,0 +1,19 @@
+{
+  "_observacao": "Gerado por scripts/fontes_registry.py (FontesRegistry.registrar() + persistir()) — não escreva à mão. Sempre inclua `resumo` ao registrar: alimenta a tabela de fichamento automaticamente.",
+  "fontes": [
+    {
+      "chave": "SOBRENOME2022",
+      "autores": [{"sobrenome": "Sobrenome", "nome": "Nome completo"}],
+      "titulo": "<título da fonte>",
+      "ano": 2022,
+      "tipo": "periodico | livro | capitulo | dissertacao | tese | anais | eletronico",
+      "subtema": "<slug do sub-tema — mesmo usado em buscas_log.json>",
+      "sufixo": "",
+      "resumo": "<1-2 frases sobre por que esta fonte é relevante — vira a coluna Resumo/Relevância do fichamento>",
+      "campos": {
+        "_nota": "campos extras variam por tipo — ver formatar_referencia() em fontes_registry.py"
+      }
+    }
+  ],
+  "renomeacoes": []
+}

@@ -1,0 +1,26 @@
+{
+  "tema_bruto": "<tema exatamente como o usuário pediu>",
+  "tema_delimitado": "<recorte escolhido pelo usuário — não decida sozinho se o tema veio amplo>",
+  "recortes_propostos": [
+    "<recorte 1 proposto ao usuário>",
+    "<recorte 2 proposto ao usuário>",
+    "<recorte 3 proposto ao usuário, se houver>"
+  ],
+  "linhas_pesquisa_programa": [
+    "<linha de pesquisa 1 do programa-alvo, se o usuário informou>"
+  ],
+  "metadata": {
+    "instituicao": "<nome da instituição>",
+    "programa": "<nome do Programa de Pós-Graduação>",
+    "linha_pesquisa": "<linha de pesquisa escolhida>",
+    "autor": "<nome do candidato>",
+    "orientador": "<nome do orientador, ou null se ainda não definido>",
+    "cidade": "<cidade>",
+    "ano": 2026,
+    "tipo_projeto": "selecao_mestrado | selecao_doutorado | qualificacao | edital_fomento",
+    "duracao_meses": 24,
+    "granularidade_cronograma": "mensal | semestral",
+    "idioma_buscas": "pt | pt+en",
+    "exigencias_edital": "<texto livre com exigências específicas do edital, ou null>"
+  }
+}

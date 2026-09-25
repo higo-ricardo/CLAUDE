@@ -1,0 +1,24 @@
+{
+  "tema_bruto": "<tema exatamente como o usuário pediu>",
+  "tema_delimitado": "<recorte escolhido pelo usuário — não decida sozinho se o tema veio amplo>",
+  "recortes_propostos": [
+    "<recorte 1 proposto ao usuário>",
+    "<recorte 2 proposto ao usuário>",
+    "<recorte 3 proposto ao usuário, se houver>"
+  ],
+  "metadata": {
+    "instituicao": "<nome da instituição>",
+    "curso": "<nome do curso de graduação>",
+    "linha_pesquisa": "<opcional — a maioria dos TCCs não tem linha de pesquisa formal>",
+    "autor": "<nome do aluno>",
+    "orientador": "<nome do orientador, ou null se ainda não definido>",
+    "cidade": "<cidade>",
+    "ano": 2026,
+    "tipo_projeto": "tcc_monografia | tcc_artigo | projeto_pesquisa_tcc",
+    "duracao_meses": 6,
+    "granularidade_cronograma": "mensal | semestral",
+    "idioma_buscas": "pt | pt+en",
+    "objeto_e_artefato_tecnico": false,
+    "objeto_e_processo_ou_fluxo": false
+  }
+}

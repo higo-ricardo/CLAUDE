@@ -1,0 +1,32 @@
+{
+  "meta": {
+    "instituicao": "[INSTITUIÇÃO]",
+    "ppg": "[PROGRAMA DE PÓS-GRADUAÇÃO]",
+    "linha_pesquisa": "[LINHA DE PESQUISA]",
+    "autor": "[AUTOR]",
+    "orientador": "[ORIENTADOR(A)]",
+    "coorientador": "",
+    "titulo": "[TÍTULO PROVISÓRIO DO PROJETO]",
+    "natureza": "Projeto de pesquisa apresentado ao Programa de Pós-Graduação em [X] da [Instituição], como requisito para [seleção de doutorado / exame de qualificação / obtenção de bolsa].",
+    "local": "[LOCAL]",
+    "ano": "[ANO]"
+  },
+  "secoes": [
+    {"nivel": 1, "titulo": "Introdução", "texto": "Parágrafo 1.\n\nParágrafo 2."},
+    {"nivel": 1, "titulo": "Problema de pesquisa", "texto": "..."},
+    {"nivel": 1, "titulo": "Justificativa", "texto": ""},
+    {"nivel": 2, "titulo": "Justificativa acadêmica", "texto": "..."},
+    {"nivel": 2, "titulo": "Justificativa social/prática", "texto": "..."},
+    {"nivel": 1, "titulo": "Objetivos", "texto": ""},
+    {"nivel": 2, "titulo": "Objetivo geral", "texto": "..."},
+    {"nivel": 2, "titulo": "Objetivos específicos", "texto": "..."},
+    {"nivel": 1, "titulo": "Referencial teórico", "texto": ""},
+    {"nivel": 2, "titulo": "[Subtema/corrente teórica 1]", "texto": "..."},
+    {"nivel": 2, "titulo": "Síntese: a lacuna identificada", "texto": "..."},
+    {"nivel": 1, "titulo": "Metodologia", "texto": ""},
+    {"nivel": 2, "titulo": "Natureza e abordagem", "texto": "..."},
+    {"nivel": 2, "titulo": "Procedimentos e instrumentos de coleta", "texto": "..."}
+  ],
+  "cronograma": null,
+  "referencias_log": "research_log.json"
+}
