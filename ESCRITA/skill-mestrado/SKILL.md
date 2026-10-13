@@ -5,8 +5,7 @@ description: Conduz um ciclo real de pesquisa (define o que precisa descobrir, d
 
 # Skill Mestrado — Projeto de Pesquisa com Ciclo de Pesquisa Real
 
-Esta skill transforma um tema (às vezes só uma frase, como "Inteligência Artificial na Educação") em um Projeto de Pesquisa completo para Mestrado ou Doutorado. A diferença central em relação a um trabalho de TCC é que aqui **o conteúdo não pode vir só da cabeça do usuário ou da sua memória** — problema de pesquisa, justificativa e fundamentação teórica de um projeto de pós-graduação precisam estar ancorados no que já existe de fato na literatura, o que só se descobre pesquisando de verdade, com múltiplas buscas, comparação entre fontes e validação — não com uma única busca solta.
-
+Esta skill transforma um tema (às vezes só uma frase, como "Inteligência Artificial na Educação") em um Projeto de Pesquisa completo para Mestrado. A diferença central em relação a um trabalho de TCC é que aqui **o conteúdo não pode vir só da cabeça do usuário ou da sua memória** — problema de pesquisa, justificativa e fundamentação teórica de um projeto de pós-graduação precisam estar ancorados no que já existe de fato na literatura, o que só se descobre pesquisando de verdade, com múltiplas buscas, comparação entre fontes e validação — não com uma única busca solta
 Se o usuário quiser algo mais simples (TCC, monografia, artigo de graduação) sem esse ciclo de pesquisa aprofundado, prefira a skill `skill-tcc`, que é mais leve e direta.
 
 ## Princípio que guia tudo aqui
